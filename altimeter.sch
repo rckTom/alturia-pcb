@@ -136,7 +136,7 @@ U 1 1 5D4131ED
 P 1300 2150
 F 0 "Y101" V 1300 2238 50  0000 L CNN
 F 1 "Crystal_Small" V 1345 2238 50  0001 L CNN
-F 2 "Crystal:Crystal_SMD_HC49-SD" H 1300 2150 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering" H 1300 2150 50  0001 C CNN
 F 3 "~" H 1300 2150 50  0001 C CNN
 	1    1300 2150
 	0    1    1    0   
