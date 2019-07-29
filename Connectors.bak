@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -15,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_ARM_JTAG_SWD_10 J201
+L Connector:Conn_ARM_JTAG_SWD_10 J202
 U 1 1 5D3DE887
 P 2000 1500
-F 0 "J201" H 1557 1546 50  0000 R CNN
+F 0 "J202" H 1557 1546 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_10" H 1557 1455 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2000 1500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical_SMD" H 2000 1500 50  0001 C CNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 1650 250 50  0001 C CNN
 	1    2000 1500
 	1    0    0    -1  
@@ -83,12 +83,12 @@ ARM_H
 Text GLabel 1400 3150 0    50   Input ~ 0
 ARM_L
 $Comp
-L Connector_Generic:Conn_01x10 J202
+L Connector_Generic:Conn_01x10 J201
 U 1 1 5D607587
 P 1600 3250
-F 0 "J202" H 1680 3242 50  0000 L CNN
+F 0 "J201" H 1680 3242 50  0000 L CNN
 F 1 "Conn_01x10" H 1680 3151 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Micro-Latch_53254-1070_1x10_P2.00mm_Horizontal" H 1600 3250 50  0001 C CNN
+F 2 "Connector_Molex:Molex_MicroClasp_55935-1010_1x10_P2.00mm_Horizontal" H 1600 3250 50  0001 C CNN
 F 3 "~" H 1600 3250 50  0001 C CNN
 	1    1600 3250
 	1    0    0    -1  
@@ -116,10 +116,10 @@ F 3 "" H 1400 2950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J203
+L Connector_Generic:Conn_01x04 J204
 U 1 1 5D616D6A
 P 3250 2750
-F 0 "J203" H 3330 2742 50  0000 L CNN
+F 0 "J204" H 3330 2742 50  0000 L CNN
 F 1 "Conn_01x04" H 3330 2651 50  0000 L CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal" H 3250 2750 50  0001 C CNN
 F 3 "~" H 3250 2750 50  0001 C CNN
@@ -127,12 +127,12 @@ F 3 "~" H 3250 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Counter_Clockwise J204
+L Connector_Generic:Conn_02x03_Counter_Clockwise J203
 U 1 1 5D61EC32
 P 3200 3500
-F 0 "J204" H 3250 3817 50  0000 C CNN
+F 0 "J203" H 3250 3817 50  0000 C CNN
 F 1 "Conn_02x03_Counter_Clockwise" H 3250 3726 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 3200 3500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical_SMD" H 3200 3500 50  0001 C CNN
 F 3 "~" H 3200 3500 50  0001 C CNN
 	1    3200 3500
 	1    0    0    -1  
@@ -159,4 +159,6 @@ F 3 "~" H 8350 1250 50  0001 C CNN
 	1    8350 1250
 	1    0    0    -1  
 $EndComp
+Text Notes 3100 1200 0    50   ~ 0
+mosfets: Si7232DN
 $EndSCHEMATC

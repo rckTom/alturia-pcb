@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -118,23 +118,23 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J204
 U 1 1 5D616D6A
-P 3250 2750
-F 0 "J204" H 3330 2742 50  0000 L CNN
-F 1 "Conn_01x04" H 3330 2651 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal" H 3250 2750 50  0001 C CNN
-F 3 "~" H 3250 2750 50  0001 C CNN
-	1    3250 2750
+P 4750 3250
+F 0 "J204" H 4830 3242 50  0000 L CNN
+F 1 "Conn_01x04" H 4830 3151 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal" H 4750 3250 50  0001 C CNN
+F 3 "~" H 4750 3250 50  0001 C CNN
+	1    4750 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Counter_Clockwise J203
 U 1 1 5D61EC32
-P 3200 3500
-F 0 "J203" H 3250 3817 50  0000 C CNN
-F 1 "Conn_02x03_Counter_Clockwise" H 3250 3726 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical_SMD" H 3200 3500 50  0001 C CNN
-F 3 "~" H 3200 3500 50  0001 C CNN
-	1    3200 3500
+P 3000 3300
+F 0 "J203" H 3050 3617 50  0000 C CNN
+F 1 "Conn_02x03_Counter_Clockwise" H 3050 3526 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical_SMD" H 3000 3300 50  0001 C CNN
+F 3 "~" H 3000 3300 50  0001 C CNN
+	1    3000 3300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -159,6 +159,83 @@ F 3 "~" H 8350 1250 50  0001 C CNN
 	1    8350 1250
 	1    0    0    -1  
 $EndComp
-Text Notes 3100 1200 0    50   ~ 0
-mosfets: Si7232DN
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 5D5D0BB5
+P 3850 1450
+F 0 "J?" H 3907 1917 50  0000 C CNN
+F 1 "USB_B_Micro" H 3907 1826 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 4000 1400 50  0001 C CNN
+F 3 "~" H 4000 1400 50  0001 C CNN
+	1    3850 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D5D0BBB
+P 3750 2000
+F 0 "#PWR?" H 3750 1750 50  0001 C CNN
+F 1 "GND" H 3755 1827 50  0000 C CNN
+F 2 "" H 3750 2000 50  0001 C CNN
+F 3 "" H 3750 2000 50  0001 C CNN
+	1    3750 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2000 3750 1950
+Wire Wire Line
+	3750 1950 3850 1950
+Wire Wire Line
+	3850 1950 3850 1850
+Connection ~ 3750 1950
+Wire Wire Line
+	3750 1950 3750 1850
+Wire Wire Line
+	4150 1250 4500 1250
+$Comp
+L power:VBUS #PWR?
+U 1 1 5D5D0BC7
+P 4500 1250
+F 0 "#PWR?" H 4500 1100 50  0001 C CNN
+F 1 "VBUS" H 4515 1423 50  0000 C CNN
+F 2 "" H 4500 1250 50  0001 C CNN
+F 3 "" H 4500 1250 50  0001 C CNN
+	1    4500 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 1450 5100 1450
+Connection ~ 4650 1450
+Wire Wire Line
+	4650 1700 4650 1450
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D5D0BD0
+P 4650 1900
+F 0 "#PWR?" H 4650 1750 50  0001 C CNN
+F 1 "+3.3V" H 4665 2073 50  0000 C CNN
+F 2 "" H 4650 1900 50  0001 C CNN
+F 3 "" H 4650 1900 50  0001 C CNN
+	1    4650 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D5D0BD6
+P 4650 1800
+F 0 "R?" H 4709 1846 50  0000 L CNN
+F 1 "1.5k" H 4709 1755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4650 1800 50  0001 C CNN
+F 3 "~" H 4650 1800 50  0001 C CNN
+	1    4650 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 1450 4650 1450
+Wire Wire Line
+	4150 1550 5100 1550
+Text GLabel 5100 1450 2    50   Input ~ 0
+USB_DP
+Text GLabel 5100 1550 2    50   Input ~ 0
+USB_DM
 $EndSCHEMATC
