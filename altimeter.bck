@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MT25Q
+D Micron MT25Q NOR Flash
+K Micron, NOR-Flash, SO2-16
+$ENDCMP
+#
+#End Doc Library
