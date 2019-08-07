@@ -132,7 +132,7 @@ U 1 1 5D61EC32
 P 3000 3300
 F 0 "J203" H 3050 3617 50  0000 C CNN
 F 1 "Conn_02x03_Counter_Clockwise" H 3050 3526 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical_SMD" H 3000 3300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 3000 3300 50  0001 C CNN
 F 3 "~" H 3000 3300 50  0001 C CNN
 	1    3000 3300
 	1    0    0    -1  
@@ -141,9 +141,11 @@ $Comp
 L Mechanical:MountingHole H201
 U 1 1 5D62934E
 P 8350 1000
+AR Path="/5D3DE309/5D62934E" Ref="H201"  Part="1" 
+AR Path="/5D62934E" Ref="H201"  Part="1" 
 F 0 "H201" H 8450 1046 50  0000 L CNN
 F 1 "MountingHole" H 8450 955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 8350 1000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8350 1000 50  0001 C CNN
 F 3 "~" H 8350 1000 50  0001 C CNN
 	1    8350 1000
 	1    0    0    -1  
@@ -154,7 +156,7 @@ U 1 1 5D62B183
 P 8350 1250
 F 0 "H202" H 8450 1296 50  0000 L CNN
 F 1 "MountingHole" H 8450 1205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 8350 1250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8350 1250 50  0001 C CNN
 F 3 "~" H 8350 1250 50  0001 C CNN
 	1    8350 1250
 	1    0    0    -1  
