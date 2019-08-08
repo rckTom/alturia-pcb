@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -78,10 +78,6 @@ Text GLabel 1400 3450 0    50   Input ~ 0
 PYRO2_HIGH
 Text GLabel 1400 3650 0    50   Input ~ 0
 PYRO3_HIGH
-Text GLabel 1400 3050 0    50   Input ~ 0
-ARM_H
-Text GLabel 1400 3150 0    50   Input ~ 0
-ARM_L
 $Comp
 L Connector_Generic:Conn_01x10 J201
 U 1 1 5D607587
@@ -138,7 +134,7 @@ F 3 "~" H 3000 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H201
+L Mechanical:MountingHole_Pad H201
 U 1 1 5D62934E
 P 8350 1000
 AR Path="/5D3DE309/5D62934E" Ref="H201"  Part="1" 
@@ -151,14 +147,14 @@ F 3 "~" H 8350 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H202
+L Mechanical:MountingHole_Pad H202
 U 1 1 5D62B183
-P 8350 1250
-F 0 "H202" H 8450 1296 50  0000 L CNN
-F 1 "MountingHole" H 8450 1205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8350 1250 50  0001 C CNN
-F 3 "~" H 8350 1250 50  0001 C CNN
-	1    8350 1250
+P 9150 1000
+F 0 "H202" H 9250 1046 50  0000 L CNN
+F 1 "MountingHole" H 9250 955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9150 1000 50  0001 C CNN
+F 3 "~" H 9150 1000 50  0001 C CNN
+	1    9150 1000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -240,4 +236,28 @@ Text GLabel 5100 1450 2    50   Input ~ 0
 USB_DP
 Text GLabel 5100 1550 2    50   Input ~ 0
 USB_DM
+Text GLabel 1400 3050 0    50   Input ~ 0
+PYRO0_HIGH
+Text GLabel 1400 3150 0    50   Input ~ 0
+PYRO0_LOW
+Wire Wire Line
+	8350 1100 8350 1250
+Wire Wire Line
+	8350 1250 9150 1250
+Wire Wire Line
+	9150 1250 9150 1100
+$Comp
+L power:GND #PWR0138
+U 1 1 5D53B2A1
+P 8350 1400
+F 0 "#PWR0138" H 8350 1150 50  0001 C CNN
+F 1 "GND" H 8355 1227 50  0000 C CNN
+F 2 "" H 8350 1400 50  0001 C CNN
+F 3 "" H 8350 1400 50  0001 C CNN
+	1    8350 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 1400 8350 1250
+Connection ~ 8350 1250
 $EndSCHEMATC
