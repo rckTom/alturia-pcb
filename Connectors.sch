@@ -64,8 +64,6 @@ Wire Wire Line
 Connection ~ 1900 2200
 Wire Wire Line
 	1900 2200 1900 2100
-Text GLabel 2500 1700 2    50   Input ~ 0
-JTDI
 Text GLabel 1400 3550 0    50   Input ~ 0
 PYRO2_LOW
 Text GLabel 1400 3750 0    50   Input ~ 0
@@ -233,9 +231,9 @@ Wire Wire Line
 Wire Wire Line
 	4150 1550 5100 1550
 Text GLabel 5100 1450 2    50   Input ~ 0
-USB_DP
+USB_D_P
 Text GLabel 5100 1550 2    50   Input ~ 0
-USB_DM
+USB_D_N
 Text GLabel 1400 3050 0    50   Input ~ 0
 PYRO0_HIGH
 Text GLabel 1400 3150 0    50   Input ~ 0
@@ -260,4 +258,5 @@ $EndComp
 Wire Wire Line
 	8350 1400 8350 1250
 Connection ~ 8350 1250
+NoConn ~ 2500 1700
 $EndSCHEMATC
