@@ -1356,4 +1356,6 @@ Text GLabel 3050 3900 2    50   Input ~ 0
 INT1
 Text GLabel 1750 1800 0    50   Input ~ 0
 INT2
+Text Notes 4450 6000 0    50   ~ 0
+Replace Flash with JEDEC compatible flash for zephyr compatibility
 $EndSCHEMATC
