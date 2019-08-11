@@ -5,4 +5,9 @@ D Micron MT25Q NOR Flash
 K Micron, NOR-Flash, SO2-16
 $ENDCMP
 #
+$CMP S25L512S
+D 512 Mbit (64 Mbyte), 3.0 V SPI Flash Memory
+K Cypress, NOR-Flash, SOIC16
+$ENDCMP
+#
 #End Doc Library

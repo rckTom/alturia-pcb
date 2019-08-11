@@ -28,11 +28,11 @@ $EndComp
 Text GLabel 2500 1200 2    50   Input ~ 0
 NRST
 Text GLabel 2500 1400 2    50   Input ~ 0
-JTCK
+SWCLK
 Text GLabel 2500 1500 2    50   Input ~ 0
-JTMS
+SWDIO
 Text GLabel 2500 1600 2    50   Input ~ 0
-JTDO
+SWO
 $Comp
 L power:+3.3V #PWR0204
 U 1 1 5D3E0632

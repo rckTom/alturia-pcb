@@ -161,7 +161,7 @@ SWCLK
 Text GLabel 3050 3700 2    50   Input ~ 0
 SWDIO
 Text GLabel 1750 2700 0    50   Input ~ 0
-JTDO
+SWO
 Text GLabel 1750 3600 0    50   Input ~ 0
 SPI2_NSS
 Text GLabel 1750 3700 0    50   Input ~ 0
@@ -323,8 +323,8 @@ F 3 "" H 10500 1200 50  0001 C CNN
 	1    10500 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 1750 2600 0    50   Input ~ 0
-BARO_CSS
+Text GLabel 1750 2500 0    50   Input ~ 0
+BARO_CS
 Text GLabel 9300 5250 0    50   Input ~ 0
 SPI1_SCK
 Text GLabel 3050 3000 2    50   Input ~ 0
@@ -382,7 +382,7 @@ U 1 1 5D4A24CA
 P 10000 4700
 F 0 "C106" V 9771 4700 50  0000 C CNN
 F 1 "100n" V 9862 4700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10000 4700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10000 4700 50  0001 C CNN
 F 3 "~" H 10000 4700 50  0001 C CNN
 	1    10000 4700
 	0    1    1    0   
@@ -597,17 +597,6 @@ F 3 "" H 10750 2350 50  0001 C CNN
 $EndComp
 Connection ~ 10750 2350
 $Comp
-L altimeter:MT25Q U102
-U 1 1 5D55332E
-P 6000 4850
-F 0 "U102" H 6228 4246 50  0000 L CNN
-F 1 "MT25Q" H 6228 4155 50  0000 L CNN
-F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 7100 4250 50  0001 C CNN
-F 3 "" H 6000 4850 50  0001 C CNN
-	1    6000 4850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR0109
 U 1 1 5D56315F
 P 6000 4450
@@ -689,7 +678,7 @@ Text GLabel 7250 5250 0    50   Input ~ 0
 SPI1_SCK
 Text GLabel 7250 4950 0    50   Input ~ 0
 ACC_CS
-Text GLabel 1750 3400 0    50   Input ~ 0
+Text GLabel 1750 2400 0    50   Input ~ 0
 ACC_CS
 Wire Wire Line
 	7650 5450 7650 5550
@@ -883,7 +872,7 @@ U 1 1 5D4B52BB
 P 8250 4650
 F 0 "C2" V 8021 4650 50  0000 C CNN
 F 1 "100n" V 8112 4650 50  0000 C CNN
-F 2 "" H 8250 4650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8250 4650 50  0001 C CNN
 F 3 "~" H 8250 4650 50  0001 C CNN
 	1    8250 4650
 	0    1    1    0   
@@ -906,7 +895,7 @@ U 1 1 5D4BEA31
 P 6300 4600
 F 0 "C1" V 6071 4600 50  0000 C CNN
 F 1 "100n" V 6162 4600 50  0000 C CNN
-F 2 "" H 6300 4600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6300 4600 50  0001 C CNN
 F 3 "~" H 6300 4600 50  0001 C CNN
 	1    6300 4600
 	0    1    1    0   
@@ -955,7 +944,7 @@ U 1 1 5D501785
 P 9600 1400
 F 0 "U1" H 9944 1446 50  0000 L CNN
 F 1 "LMV331" H 9944 1355 50  0000 L CNN
-F 2 "" H 9600 1500 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9600 1500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lmv331.pdf" H 9600 1600 50  0001 C CNN
 	1    9600 1400
 	1    0    0    -1  
@@ -1109,7 +1098,7 @@ Text GLabel 3050 3300 2    50   Input ~ 0
 UART1_TX
 Text GLabel 3050 3400 2    50   Input ~ 0
 UART1_RX
-Text GLabel 1750 3500 0    50   Input ~ 0
+Text GLabel 1750 3400 0    50   Input ~ 0
 IMU_ACC_CS
 Text GLabel 1750 3200 0    50   Input ~ 0
 PWM1
@@ -1137,7 +1126,7 @@ F 3 "https://www.mouser.de/datasheet/2/670/css-95b30-smt-1311901.pdf" H 5415 850
 	1    5450 900 
 	1    0    0    -1  
 $EndComp
-Text GLabel 1750 2500 0    50   Input ~ 0
+Text GLabel 1750 3500 0    50   Input ~ 0
 SUMMER
 Wire Wire Line
 	5250 1000 5150 1000
@@ -1209,10 +1198,10 @@ IMU_ACC_CS
 Text GLabel 5050 2700 0    50   Input ~ 0
 SPI1_SCK
 $Comp
-L altimeter:BMI088 U?
+L altimeter:BMI088 U106
 U 1 1 5D631374
 P 5800 3600
-F 0 "U?" H 5800 4725 50  0000 C CNN
+F 0 "U106" H 5800 4725 50  0000 C CNN
 F 1 "BMI088" H 5800 4634 50  0000 C CNN
 F 2 "" H 5650 3650 50  0001 C CNN
 F 3 "" H 5650 3650 50  0001 C CNN
@@ -1220,10 +1209,10 @@ F 3 "" H 5650 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0141
 U 1 1 5D64A47E
 P 5200 3850
-F 0 "#PWR?" H 5200 3600 50  0001 C CNN
+F 0 "#PWR0141" H 5200 3600 50  0001 C CNN
 F 1 "GND" H 5205 3677 50  0000 C CNN
 F 2 "" H 5200 3850 50  0001 C CNN
 F 3 "" H 5200 3850 50  0001 C CNN
@@ -1240,10 +1229,10 @@ Wire Wire Line
 	5200 3400 5300 3400
 Connection ~ 5200 3600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0142
 U 1 1 5D656842
 P 6400 3850
-F 0 "#PWR?" H 6400 3600 50  0001 C CNN
+F 0 "#PWR0142" H 6400 3600 50  0001 C CNN
 F 1 "GND" H 6405 3677 50  0000 C CNN
 F 2 "" H 6400 3850 50  0001 C CNN
 F 3 "" H 6400 3850 50  0001 C CNN
@@ -1278,7 +1267,7 @@ Text GLabel 5050 3200 0    50   Input ~ 0
 IMU_GYRO_CS
 Wire Wire Line
 	5050 3200 5300 3200
-Text GLabel 1750 2400 0    50   Input ~ 0
+Text GLabel 1750 2600 0    50   Input ~ 0
 IMU_GYRO_CS
 Wire Wire Line
 	1550 1900 1550 2100
@@ -1289,10 +1278,10 @@ Wire Wire Line
 Wire Wire Line
 	1200 2300 1550 2300
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0143
 U 1 1 5D6DDAC8
 P 7000 3100
-F 0 "#PWR?" H 7000 2950 50  0001 C CNN
+F 0 "#PWR0143" H 7000 2950 50  0001 C CNN
 F 1 "+3.3V" H 6900 3250 50  0000 C CNN
 F 2 "" H 7000 3100 50  0001 C CNN
 F 3 "" H 7000 3100 50  0001 C CNN
@@ -1300,23 +1289,23 @@ F 3 "" H 7000 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C109
 U 1 1 5D6E0200
 P 6600 3550
-F 0 "C?" V 6371 3550 50  0000 C CNN
+F 0 "C109" V 6371 3550 50  0000 C CNN
 F 1 "100n" V 6462 3550 50  0000 C CNN
-F 2 "" H 6600 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6600 3550 50  0001 C CNN
 F 3 "~" H 6600 3550 50  0001 C CNN
 	1    6600 3550
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C110
 U 1 1 5D704C25
 P 7000 3550
-F 0 "C?" V 6771 3550 50  0000 C CNN
+F 0 "C110" V 6771 3550 50  0000 C CNN
 F 1 "100n" V 6862 3550 50  0000 C CNN
-F 2 "" H 7000 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7000 3550 50  0001 C CNN
 F 3 "~" H 7000 3550 50  0001 C CNN
 	1    7000 3550
 	-1   0    0    1   
@@ -1356,6 +1345,181 @@ Text GLabel 3050 3900 2    50   Input ~ 0
 INT1
 Text GLabel 1750 1800 0    50   Input ~ 0
 INT2
-Text Notes 4450 6000 0    50   ~ 0
-Replace Flash with JEDEC compatible flash for zephyr compatibility
+$Comp
+L altimeter:S25L512S U102
+U 1 1 5D50B565
+P 6000 4850
+F 0 "U102" H 6344 4546 50  0000 L CNN
+F 1 "S25L512S" H 6344 4455 50  0000 L CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 7100 4250 50  0001 C CNN
+F 3 "" H 6000 4850 50  0001 C CNN
+	1    6000 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C111
+U 1 1 5D512E0A
+P 3300 950
+F 0 "C111" H 3392 996 50  0000 L CNN
+F 1 "C_Small" H 3392 905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3300 950 50  0001 C CNN
+F 3 "~" H 3300 950 50  0001 C CNN
+	1    3300 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C113
+U 1 1 5D513394
+P 3500 950
+F 0 "C113" H 3592 996 50  0000 L CNN
+F 1 "C_Small" H 3592 905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3500 950 50  0001 C CNN
+F 3 "~" H 3500 950 50  0001 C CNN
+	1    3500 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C115
+U 1 1 5D51377B
+P 3700 950
+F 0 "C115" H 3792 996 50  0000 L CNN
+F 1 "C_Small" H 3792 905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3700 950 50  0001 C CNN
+F 3 "~" H 3700 950 50  0001 C CNN
+	1    3700 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C116
+U 1 1 5D513A48
+P 3900 950
+F 0 "C116" H 3992 996 50  0000 L CNN
+F 1 "C_Small" H 3992 905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3900 950 50  0001 C CNN
+F 3 "~" H 3900 950 50  0001 C CNN
+	1    3900 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C112
+U 1 1 5D51426E
+P 3300 1950
+F 0 "C112" H 3392 1996 50  0000 L CNN
+F 1 "C_Small" H 3392 1905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3300 1950 50  0001 C CNN
+F 3 "~" H 3300 1950 50  0001 C CNN
+	1    3300 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C114
+U 1 1 5D514560
+P 3500 1950
+F 0 "C114" H 3592 1996 50  0000 L CNN
+F 1 "C_Small" H 3592 1905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3500 1950 50  0001 C CNN
+F 3 "~" H 3500 1950 50  0001 C CNN
+	1    3500 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0144
+U 1 1 5D519CA6
+P 3300 650
+F 0 "#PWR0144" H 3300 500 50  0001 C CNN
+F 1 "+3.3V" H 3315 823 50  0000 C CNN
+F 2 "" H 3300 650 50  0001 C CNN
+F 3 "" H 3300 650 50  0001 C CNN
+	1    3300 650 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 650  3300 750 
+Wire Wire Line
+	3300 750  3500 750 
+Wire Wire Line
+	3500 750  3500 850 
+Connection ~ 3300 750 
+Wire Wire Line
+	3300 750  3300 850 
+Wire Wire Line
+	3500 750  3700 750 
+Wire Wire Line
+	3700 750  3700 850 
+Connection ~ 3500 750 
+Wire Wire Line
+	3700 750  3900 750 
+Wire Wire Line
+	3900 750  3900 850 
+Connection ~ 3700 750 
+$Comp
+L power:GND #PWR0145
+U 1 1 5D541B40
+P 3300 1200
+F 0 "#PWR0145" H 3300 950 50  0001 C CNN
+F 1 "GND" H 3305 1027 50  0000 C CNN
+F 2 "" H 3300 1200 50  0001 C CNN
+F 3 "" H 3300 1200 50  0001 C CNN
+	1    3300 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 1200 3300 1150
+Wire Wire Line
+	3300 1150 3500 1150
+Wire Wire Line
+	3500 1150 3500 1050
+Connection ~ 3300 1150
+Wire Wire Line
+	3300 1150 3300 1050
+Wire Wire Line
+	3500 1150 3700 1150
+Wire Wire Line
+	3700 1150 3700 1050
+Connection ~ 3500 1150
+Wire Wire Line
+	3700 1150 3900 1150
+Wire Wire Line
+	3900 1150 3900 1050
+Connection ~ 3700 1150
+$Comp
+L power:+3.3V #PWR0146
+U 1 1 5D56E4D1
+P 3300 1650
+F 0 "#PWR0146" H 3300 1500 50  0001 C CNN
+F 1 "+3.3V" H 3315 1823 50  0000 C CNN
+F 2 "" H 3300 1650 50  0001 C CNN
+F 3 "" H 3300 1650 50  0001 C CNN
+	1    3300 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 1850 3300 1750
+Wire Wire Line
+	3300 1750 3500 1750
+Wire Wire Line
+	3500 1750 3500 1850
+Connection ~ 3300 1750
+Wire Wire Line
+	3300 1750 3300 1650
+$Comp
+L power:GND #PWR0147
+U 1 1 5D5858EC
+P 3300 2200
+F 0 "#PWR0147" H 3300 1950 50  0001 C CNN
+F 1 "GND" H 3305 2027 50  0000 C CNN
+F 2 "" H 3300 2200 50  0001 C CNN
+F 3 "" H 3300 2200 50  0001 C CNN
+	1    3300 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2200 3300 2150
+Wire Wire Line
+	3300 2150 3500 2150
+Wire Wire Line
+	3500 2150 3500 2050
+Connection ~ 3300 2150
+Wire Wire Line
+	3300 2150 3300 2050
 $EndSCHEMATC
