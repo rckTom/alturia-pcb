@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:altimeter-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -25,10 +25,12 @@ AR Path="/5D47CE84/5D4757F5" Ref="R?"  Part="1"
 AR Path="/5D488E46/5D4757F5" Ref="R402"  Part="1" 
 AR Path="/5D48B429/5D4757F5" Ref="R502"  Part="1" 
 AR Path="/5D4E7D5B/5D4757F5" Ref="R12"  Part="1" 
-F 0 "R302" H 5920 4396 50  0000 L CNN
+F 0 "R12" H 5920 4396 50  0000 L CNN
 F 1 "33" H 5920 4305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5780 4350 50  0001 C CNN
 F 3 "~" H 5850 4350 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/TE-Connectivity-Neohm/CPF0402B33RE1?qs=sGAEpiMZZMu61qfTUdNhGxAfPTOoMd3M04DSieB%252B0Z0%3D" H 5850 4350 50  0001 C CNN "Mouser_Link"
+F 5 "CPF0402B33RE1" H 5850 4350 50  0001 C CNN "Parnumber"
 	1    5850 4350
 	1    0    0    -1  
 $EndComp
@@ -79,10 +81,12 @@ AR Path="/5D47CE84/5D47580C" Ref="R?"  Part="1"
 AR Path="/5D488E46/5D47580C" Ref="R403"  Part="1" 
 AR Path="/5D48B429/5D47580C" Ref="R503"  Part="1" 
 AR Path="/5D4E7D5B/5D47580C" Ref="R13"  Part="1" 
-F 0 "R303" V 6293 3500 50  0000 C CNN
+F 0 "R13" V 6293 3500 50  0000 C CNN
 F 1 "2.7k" V 6384 3500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6430 3500 50  0001 C CNN
 F 3 "~" H 6500 3500 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW04022K70FKEDC?qs=sGAEpiMZZMu61qfTUdNhG9bvwnXh9sSrHB5zaMHoC9p2GBlct%252B1VIg%3D%3D" H 6500 3500 50  0001 C CNN "Mouser_Link"
+F 5 "CRCW04022K70FKEDC" H 6500 3500 50  0001 C CNN "Parnumber"
 	1    6500 3500
 	0    1    1    0   
 $EndComp
@@ -109,10 +113,12 @@ AR Path="/5D47CE84/5D475828" Ref="R?"  Part="1"
 AR Path="/5D488E46/5D475828" Ref="R401"  Part="1" 
 AR Path="/5D48B429/5D475828" Ref="R501"  Part="1" 
 AR Path="/5D4E7D5B/5D475828" Ref="R10"  Part="1" 
-F 0 "R301" H 4720 4446 50  0000 L CNN
+F 0 "R10" H 4720 4446 50  0000 L CNN
 F 1 "2.7k" H 4720 4355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 4580 4400 50  0001 C CNN
 F 3 "~" H 4650 4400 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW04022K70FKEDC?qs=sGAEpiMZZMu61qfTUdNhG9bvwnXh9sSrHB5zaMHoC9p2GBlct%252B1VIg%3D%3D" H 4650 4400 50  0001 C CNN "Mouser_Link"
+F 5 "CRCW04022K70FKEDC" H 4650 4400 50  0001 C CNN "Parnumber"
 	1    4650 4400
 	1    0    0    -1  
 $EndComp
@@ -139,10 +145,12 @@ AR Path="/5D47CE84/5D475835" Ref="Q?"  Part="1"
 AR Path="/5D488E46/5D475835" Ref="Q401"  Part="1" 
 AR Path="/5D48B429/5D475835" Ref="Q501"  Part="1" 
 AR Path="/5D4E7D5B/5D475835" Ref="Q1"  Part="1" 
-F 0 "Q301" H 6141 3546 50  0000 L CNN
-F 1 "BC847BDW1" H 6141 3455 50  0000 L CNN
+F 0 "Q1" H 6141 3546 50  0000 L CNN
+F 1 "BC848CDW1T1G" H 6141 3455 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 6150 3600 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF" H 5950 3500 50  0001 C CNN
+F 4 "https://www.mouser.de/manufacturer/on-semiconductor/" H 5950 3500 50  0001 C CNN "Mouser_Link"
+F 5 "BC848CDW1T1G" H 5950 3500 50  0001 C CNN "Parnumber"
 	1    5950 3500
 	-1   0    0    -1  
 $EndComp
@@ -157,10 +165,12 @@ AR Path="/5D47CE84/5D47583B" Ref="Q?"  Part="2"
 AR Path="/5D488E46/5D47583B" Ref="Q401"  Part="2" 
 AR Path="/5D48B429/5D47583B" Ref="Q501"  Part="2" 
 AR Path="/5D4E7D5B/5D47583B" Ref="Q1"  Part="2" 
-F 0 "Q301" H 6390 4096 50  0000 L CNN
-F 1 "BC847BDW1" H 6390 4005 50  0000 L CNN
+F 0 "Q1" H 6390 4096 50  0000 L CNN
+F 1 "BC848CDW1T1G" H 6390 4005 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 6400 4150 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF" H 6200 4050 50  0001 C CNN
+F 4 "https://www.mouser.de/manufacturer/on-semiconductor/" H 6200 4050 50  0001 C CNN "Mouser_Link"
+F 5 "BC848CDW1T1G" H 6200 4050 50  0001 C CNN "Parnumber"
 	2    6200 4050
 	1    0    0    -1  
 $EndComp
@@ -180,17 +190,19 @@ Text HLabel 4450 2550 0    50   Output ~ 0
 SENSE
 $Comp
 L altimeter:SI7232DN U301
-U 2 1 5D4F79DE
+U 1 1 5D4F79DE
 P 5150 4050
 AR Path="/5D473C9B/5D4F79DE" Ref="U301"  Part="2" 
 AR Path="/5D488E46/5D4F79DE" Ref="U301"  Part="1" 
 AR Path="/5D48B429/5D4F79DE" Ref="U501"  Part="2" 
 AR Path="/5D4E7D5B/5D4F79DE" Ref="U501"  Part="1" 
-F 0 "U301" H 5256 4096 50  0000 L CNN
+F 0 "U501" H 5256 4096 50  0000 L CNN
 F 1 "SI7232DN" H 5256 4005 50  0000 L CNN
 F 2 "Package_SO:Vishay_PowerPAK_1212-8_Dual" H 5150 4050 50  0001 C CNN
 F 3 "" H 5150 4050 50  0001 C CNN
-	2    5150 4050
+F 4 "https://www.mouser.de/ProductDetail/Vishay-Siliconix/SI7232DN-T1-GE3?qs=%2Fha2pyFaduiZCEC0X5XOlemXjOWX3oZDDwY4%252BOM6S%252B4%3D" H 5150 4050 50  0001 C CNN "Mouser_Link"
+F 5 "SI7232DN-T1-GE3 " H 5150 4050 50  0001 C CNN "Parnumber"
+	1    5150 4050
 	1    0    0    -1  
 $EndComp
 Text Notes 7550 2700 0    50   ~ 0
@@ -211,10 +223,12 @@ AR Path="/5D473C9B/5D6F3FF8" Ref="F301"  Part="1"
 AR Path="/5D488E46/5D6F3FF8" Ref="F401"  Part="1" 
 AR Path="/5D48B429/5D6F3FF8" Ref="F501"  Part="1" 
 AR Path="/5D4E7D5B/5D6F3FF8" Ref="F1"  Part="1" 
-F 0 "F301" H 5938 2946 50  0000 L CNN
+F 0 "F1" H 5938 2946 50  0000 L CNN
 F 1 "Polyfuse" H 5938 2855 50  0000 L CNN
 F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5900 2700 50  0001 L CNN
 F 3 "~" H 5850 2900 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Bel-Fuse/0ZCM0008FF2G?qs=sGAEpiMZZMsxR%252BBXi4wRUHZtKAyWcVPAeoO9zfZPDm1Bddpp1KgY1Q%3D%3D" H 5850 2900 50  0001 C CNN "Mouser_Link"
+F 5 "0ZCM0008FF2G" H 5850 2900 50  0001 C CNN "Parnumber"
 	1    5850 2900
 	1    0    0    -1  
 $EndComp
@@ -235,10 +249,12 @@ AR Path="/5D47CE84/5D4D8D4C" Ref="R?"  Part="1"
 AR Path="/5D488E46/5D4D8D4C" Ref="R5"  Part="1" 
 AR Path="/5D48B429/5D4D8D4C" Ref="R7"  Part="1" 
 AR Path="/5D4E7D5B/5D4D8D4C" Ref="R9"  Part="1" 
-F 0 "R3" H 4620 2896 50  0000 L CNN
+F 0 "R9" H 4620 2896 50  0000 L CNN
 F 1 "68k" H 4620 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 4480 2850 50  0001 C CNN
 F 3 "~" H 4550 2850 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW0402768K0FKEDC" H 4550 2850 50  0001 C CNN "Mouser_Link"
+F 5 "CRCW040268K0FKEDC" H 4550 2850 50  0001 C CNN "Parnumber"
 	1    4550 2850
 	1    0    0    -1  
 $EndComp
@@ -253,10 +269,12 @@ AR Path="/5D47CE84/5D4D933B" Ref="R?"  Part="1"
 AR Path="/5D488E46/5D4D933B" Ref="R6"  Part="1" 
 AR Path="/5D48B429/5D4D933B" Ref="R8"  Part="1" 
 AR Path="/5D4E7D5B/5D4D933B" Ref="R11"  Part="1" 
-F 0 "R4" H 4920 2596 50  0000 L CNN
+F 0 "R11" H 4920 2596 50  0000 L CNN
 F 1 "220k" H 4920 2505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 4780 2550 50  0001 C CNN
 F 3 "~" H 4850 2550 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW0402220KFKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3G5pQ69okwQNw%3D" H 4850 2550 50  0001 C CNN "Mouser_Link"
+F 5 "CRCW0402220KFKEDC" H 4850 2550 50  0001 C CNN "Parnumber"
 	1    4850 2550
 	0    1    1    0   
 $EndComp

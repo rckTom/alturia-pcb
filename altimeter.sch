@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:altimeter-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -22,6 +22,8 @@ F 0 "U101" H 2950 1100 50  0000 C CNN
 F 1 "STM32F302CCTx" H 3200 1000 50  0000 C CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 1850 1200 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00094064.pdf" H 2450 2600 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/STMicroelectronics/STM32F302CCT6?qs=sGAEpiMZZMuoKKEcg8mMKOBJ8oUHiKNHPcYeia7O8P4%3D" H 2450 2600 50  0001 C CNN "Mouser_Link"
+F 5 "STM32F302CCT6" H 2450 2600 50  0001 C CNN "Parnumber"
 	1    2450 2600
 	1    0    0    -1  
 $EndComp
@@ -33,6 +35,8 @@ F 0 "U107" H 10030 5196 50  0000 L CNN
 F 1 "MS5611-01BA" H 10030 5105 50  0000 L CNN
 F 2 "Package_LGA:LGA-8_3x5mm_P1.25mm" H 9700 5150 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5611-01BA03&DocType=Data+Sheet&DocLang=English" H 9700 5150 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Measurement-Specialties/MS560702BA03-50?qs=%2Fha2pyFaduj7bZYAXiWvnF9nCQuPCYCW%252BbRwaRxHKSrn25fabmNd%252BQ%3D%3D" H 9700 5150 50  0001 C CNN "Mouser_Link"
+F 5 "MS560702BA03-50 " H 9700 5150 50  0001 C CNN "Parnumber"
 	1    9700 5150
 	1    0    0    -1  
 $EndComp
@@ -131,6 +135,8 @@ F 0 "C101" V 771 1900 50  0000 C CNN
 F 1 "22p" V 862 1900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 1000 1900 50  0001 C CNN
 F 3 "~" H 1000 1900 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Murata-Electronics/GCM1555G1H220JA16D?qs=sGAEpiMZZMs0AnBnWHyRQAsAWwhBCY7bDLShlSp46t28ceXO6IsPuQ%3D%3D" H 1000 1900 50  0001 C CNN "Mouser_Link"
+F 5 "GCM1555G1H220JA16D" H 1000 1900 50  0001 C CNN "Parnumber"
 	1    1000 1900
 	0    1    1    0   
 $EndComp
@@ -142,6 +148,8 @@ F 0 "C102" V 1137 2300 50  0000 C CNN
 F 1 "22p" V 1228 2300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 1000 2300 50  0001 C CNN
 F 3 "~" H 1000 2300 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Murata-Electronics/GCM1555G1H220JA16D?qs=sGAEpiMZZMs0AnBnWHyRQAsAWwhBCY7bDLShlSp46t28ceXO6IsPuQ%3D%3D" H 1000 2300 50  0001 C CNN "Mouser_Link"
+F 5 "GCM1555G1H220JA16D" H 1000 2300 50  0001 C CNN "Parnumber"
 	1    1000 2300
 	0    1    1    0   
 $EndComp
@@ -178,6 +186,8 @@ F 0 "D101" H 7643 645 50  0000 C CNN
 F 1 "LED" H 7643 736 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 7650 900 50  0001 C CNN
 F 3 "~" H 7650 900 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Kingbright/APTD1608LSURCK?qs=sGAEpiMZZMseGfSY3csMkdgyOOAg6kv2cxPgKHWlbm1IZYxSy1q3mw%3D%3D" H 7650 900 50  0001 C CNN "Mouser_Link"
+F 5 "APTD1608LSURCK" H 7650 900 50  0001 C CNN "Parnumber"
 	1    7650 900 
 	-1   0    0    1   
 $EndComp
@@ -189,6 +199,8 @@ F 0 "R101" V 7043 900 50  0000 C CNN
 F 1 "680" V 7134 900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7180 900 50  0001 C CNN
 F 3 "~" H 7250 900 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW0402680RFKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GyuaBeN1cc%2FA%3D" H 7250 900 50  0001 C CNN "Mouser_Link"
+F 5 "CRCW0402680RFKEDC" H 7250 900 50  0001 C CNN "Parnumber"
 	1    7250 900 
 	0    1    1    0   
 $EndComp
@@ -225,13 +237,15 @@ F 3 "" H 10500 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Q_PMOS_DGS Q101
+L Device:Q_PMOS_GSD Q101
 U 1 1 5D449B6D
 P 10400 1400
 F 0 "Q101" H 10606 1354 50  0000 L CNN
 F 1 "DMG2301L" H 10606 1445 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10600 1500 50  0001 C CNN
 F 3 "~" H 10400 1400 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Diodes-Incorporated/DMG2301L-7?qs=sGAEpiMZZMshyDBzk1%2FWi7D7EaJfF%252Bz4L6K6mPI5IG5tw42rmqyxiA%3D%3D" H 10400 1400 50  0001 C CNN "Mouser_Link"
+F 5 "DMG2301L-7" H 10400 1400 50  0001 C CNN "Parnumber"
 	1    10400 1400
 	1    0    0    1   
 $EndComp
@@ -258,7 +272,7 @@ F 3 "" H 9500 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9900 1400 10200 1400
+	9900 1400 10100 1400
 $Comp
 L power:+BATT #PWR0113
 U 1 1 5D4664F5
@@ -278,6 +292,8 @@ F 0 "R104" H 8691 1496 50  0000 R CNN
 F 1 "100k" H 8691 1405 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 8750 1450 50  0001 C CNN
 F 3 "~" H 8750 1450 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW0402100KFKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GqPf2An0kBCw%3D" H 8750 1450 50  0001 C CNN "Mouser_Link"
+F 5 "CRCW0402100KFKEDC" H 8750 1450 50  0001 C CNN "Parnumber"
 	1    8750 1450
 	1    0    0    -1  
 $EndComp
@@ -289,6 +305,8 @@ F 0 "R103" H 8809 1196 50  0000 L CNN
 F 1 "100k" H 8809 1105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 8750 1150 50  0001 C CNN
 F 3 "~" H 8750 1150 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW0402100KFKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GqPf2An0kBCw%3D" H 8750 1150 50  0001 C CNN "Mouser_Link"
+F 5 "CRCW0402100KFKEDC" H 8750 1150 50  0001 C CNN "Parnumber"
 	1    8750 1150
 	1    0    0    -1  
 $EndComp
@@ -384,6 +402,8 @@ F 0 "C106" V 9771 4700 50  0000 C CNN
 F 1 "100n" V 9862 4700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10000 4700 50  0001 C CNN
 F 3 "~" H 10000 4700 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012205037?qs=sGAEpiMZZMs0AnBnWHyRQEGbLOF2VP1iQ21DRO%252BfKQRXXkG1Pup5LQ%3D%3D" H 10000 4700 50  0001 C CNN "Mouser_Link"
+F 5 "885012205037" H 10000 4700 50  0001 C CNN "Parnumber"
 	1    10000 4700
 	0    1    1    0   
 $EndComp
@@ -415,6 +435,8 @@ F 0 "U105" H 10000 3692 50  0000 C CNN
 F 1 "LF50_TO252" H 10000 3601 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 10000 3675 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf" H 10000 3400 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/STMicroelectronics/LF50ABDT-TR?qs=sGAEpiMZZMsGz1a6aV8DcEm8v6QQYeDZglitSsGk4h4%3D" H 10000 3450 50  0001 C CNN "Mouser_Link"
+F 5 "LF50ABDT-TR" H 10000 3450 50  0001 C CNN "Parnumber"
 	1    10000 3450
 	1    0    0    -1  
 $EndComp
@@ -426,6 +448,8 @@ F 0 "C104" H 9442 3696 50  0000 L CNN
 F 1 "100n" H 9442 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9350 3650 50  0001 C CNN
 F 3 "~" H 9350 3650 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/KEMET/C0805C104Z3VACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2FdZzrd8bbt%252Bc%3D" H 9350 3650 50  0001 C CNN "Mouser_Link"
+F 5 "C0805C104Z3VACTU" H 9350 3650 50  0001 C CNN "Parnumber"
 	1    9350 3650
 	1    0    0    -1  
 $EndComp
@@ -475,6 +499,8 @@ F 0 "C107" H 10692 3696 50  0000 L CNN
 F 1 "2.2u" H 10692 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10600 3650 50  0001 C CNN
 F 3 "~" H 10600 3650 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Taiyo-Yuden/EMK107BJ225MA-T?qs=sGAEpiMZZMs0AnBnWHyRQPSjYu%2Fkbgu8gi8YbsqojVfHLlKjG2ASkw%3D%3D" H 10600 3650 50  0001 C CNN "Mouser_Link"
+F 5 "EMK107BJ225MA-T" H 10600 3650 50  0001 C CNN "Parnumber"
 	1    10600 3650
 	1    0    0    -1  
 $EndComp
@@ -506,6 +532,8 @@ F 0 "U104" H 10000 2792 50  0000 C CNN
 F 1 "MIC5219-3.3YM5" H 10000 2701 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 10000 2775 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf" H 10000 2450 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Microchip-Technology-Micrel/MIC5219-33YM5-TR?qs=%2Fha2pyFaduim6trt0rr%2FuqkWJeClCQe826a%252BUNgwO0592%2FNC9Vt0sg%3D%3D" H 10000 2450 50  0001 C CNN "Mouser_Link"
+F 5 "MIC5219-3.3YM5-TR " H 10000 2450 50  0001 C CNN "Parnumber"
 	1    10000 2450
 	1    0    0    -1  
 $EndComp
@@ -545,9 +573,11 @@ L Device:C_Small C105
 U 1 1 5D4F9215
 P 10450 2600
 F 0 "C105" H 10542 2600 50  0000 L CNN
-F 1 "C_Small" H 10542 2555 50  0001 L CNN
+F 1 "470p" H 10542 2555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10450 2600 50  0001 C CNN
 F 3 "~" H 10450 2600 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Taiyo-Yuden/TMK063CG471JT-F?qs=sGAEpiMZZMsh%252B1woXyUXjzRu9w46NtHruCH%2F5gFkcgY%3D" H 10450 2600 50  0001 C CNN "Mouser_Link"
+F 5 "TMK063CG471JT-F" H 10450 2600 50  0001 C CNN "Parnumber"
 	1    10450 2600
 	1    0    0    -1  
 $EndComp
@@ -560,9 +590,11 @@ L Device:C_Small C108
 U 1 1 5D4FB37A
 P 10750 2600
 F 0 "C108" H 10842 2600 50  0000 L CNN
-F 1 "C_Small" H 10842 2555 50  0001 L CNN
+F 1 "4.7u" H 10842 2555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10750 2600 50  0001 C CNN
 F 3 "~" H 10750 2600 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Taiyo-Yuden/EMK107ABJ475KA-T?qs=sGAEpiMZZMsh%252B1woXyUXjzXZPAgA2%252BEM0YjaF6PuMqo%3D" H 10750 2600 50  0001 C CNN "Mouser_Link"
+F 5 "EMK107ABJ475KA-T" H 10750 2600 50  0001 C CNN "Parnumber"
 	1    10750 2600
 	1    0    0    -1  
 $EndComp
@@ -667,6 +699,8 @@ F 0 "U103" H 7450 5200 50  0000 C CNN
 F 1 "AIS2120SXTR" H 7300 5100 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7250 5250 50  0001 C CNN
 F 3 "" H 7250 5250 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/STMicroelectronics/AIS2120SXTR?qs=%2Fha2pyFadugZjNTqMEitk1TqmZGE9nJR7UIHc%2FlvT7bsDzSJaWYiUA%3D%3D" H 7650 4900 50  0001 C CNN "Mouser_Link"
+F 5 "AIS2120SXTR" H 7650 4900 50  0001 C CNN "Parnumber"
 	1    7650 4900
 	1    0    0    -1  
 $EndComp
@@ -696,6 +730,8 @@ F 0 "C103" V 8021 5150 50  0000 C CNN
 F 1 "1u" V 8112 5150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8250 5150 50  0001 C CNN
 F 3 "~" H 8250 5150 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Yageo/CC0603KRX5R8BB105?qs=sGAEpiMZZMs0AnBnWHyRQIOKs%2FDjbJvGM2Qk4x9TyVw%3D" H 8250 5150 50  0001 C CNN "Mouser_Link"
+F 5 "CC0603KRX5R8BB105" H 8250 5150 50  0001 C CNN "Parnumber"
 	1    8250 5150
 	0    1    1    0   
 $EndComp
@@ -874,6 +910,8 @@ F 0 "C2" V 8021 4650 50  0000 C CNN
 F 1 "100n" V 8112 4650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8250 4650 50  0001 C CNN
 F 3 "~" H 8250 4650 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012205037?qs=sGAEpiMZZMs0AnBnWHyRQEGbLOF2VP1iQ21DRO%252BfKQRXXkG1Pup5LQ%3D%3D" H 8250 4650 50  0001 C CNN "Mouser_Link"
+F 5 "885012205037" H 8250 4650 50  0001 C CNN "Parnumber"
 	1    8250 4650
 	0    1    1    0   
 $EndComp
@@ -897,6 +935,8 @@ F 0 "C1" V 6071 4600 50  0000 C CNN
 F 1 "100n" V 6162 4600 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6300 4600 50  0001 C CNN
 F 3 "~" H 6300 4600 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012205037?qs=sGAEpiMZZMs0AnBnWHyRQEGbLOF2VP1iQ21DRO%252BfKQRXXkG1Pup5LQ%3D%3D" H 6300 4600 50  0001 C CNN "Mouser_Link"
+F 5 "885012205037" H 6300 4600 50  0001 C CNN "Parnumber"
 	1    6300 4600
 	0    1    1    0   
 $EndComp
@@ -926,6 +966,8 @@ F 0 "C3" H 9068 3696 50  0000 L CNN
 F 1 "1m" H 9068 3605 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Axial_L11.0mm_D8.0mm_P15.00mm_Horizontal" H 8988 3500 50  0001 C CNN
 F 3 "~" H 8950 3650 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Illinois-Capacitor-CDE/337TTA016M?qs=3tP%252BN51vMXcJjE4PHk19Og%3D%3D" H 8950 3650 50  0001 C CNN "Mouser_Link"
+F 5 "337TTA016M " H 8950 3650 50  0001 C CNN "Parnumber"
 	1    8950 3650
 	1    0    0    -1  
 $EndComp
@@ -946,6 +988,8 @@ F 0 "U1" H 9944 1446 50  0000 L CNN
 F 1 "LMV331" H 9944 1355 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9600 1500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lmv331.pdf" H 9600 1600 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/ON-Semiconductor/LMV331SN3T1G?qs=sGAEpiMZZMvlOED0T0kTWgepvLiETRun" H 9600 1400 50  0001 C CNN "Mouser_Link"
+F 5 "LMV331SN3T1G " H 9600 1400 50  0001 C CNN "Parnumber"
 	1    9600 1400
 	1    0    0    -1  
 $EndComp
@@ -1004,6 +1048,8 @@ F 0 "R2" V 8393 3450 50  0000 C CNN
 F 1 "220k" V 8484 3450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8530 3450 50  0001 C CNN
 F 3 "~" H 8600 3450 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW0402220KFKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3G5pQ69okwQNw%3D" H 8600 3450 50  0001 C CNN "Mouser_Link"
+F 5 "CRCW0402220KFKEDC" H 8600 3450 50  0001 C CNN "Parnumber"
 	1    8600 3450
 	0    -1   -1   0   
 $EndComp
@@ -1015,6 +1061,8 @@ F 0 "R1" V 8093 3650 50  0000 C CNN
 F 1 "68k" V 8184 3650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8230 3650 50  0001 C CNN
 F 3 "~" H 8300 3650 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW0402768K0FKEDC" H 8300 3650 50  0001 C CNN "Mouser_Link"
+F 5 "CRCW040268K0FKEDC" H 8300 3650 50  0001 C CNN "Parnumber"
 	1    8300 3650
 	1    0    0    -1  
 $EndComp
@@ -1105,13 +1153,15 @@ PWM1
 Text GLabel 1750 3300 0    50   Input ~ 0
 PWM2
 $Comp
-L Device:Q_PMOS_DGS Q102
+L Device:Q_NMOS_GSD Q102
 U 1 1 5D54DF32
 P 5050 1500
 F 0 "Q102" H 5256 1454 50  0000 L CNN
-F 1 "DMG2301L" H 5256 1545 50  0000 L CNN
+F 1 "NTR4003NT1G" H 5256 1545 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5250 1600 50  0001 C CNN
 F 3 "~" H 5050 1500 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/ON-Semiconductor/NTR4003NT1G?qs=sGAEpiMZZMshyDBzk1%2FWi4hQ7dFcTtZiRq92fftwFXs%3D" H 5050 1500 50  0001 C CNN "Mouser_Link"
+F 5 "NTR4003NT1G" H 5050 1500 50  0001 C CNN "Parnumber"
 	1    5050 1500
 	1    0    0    1   
 $EndComp
@@ -1123,6 +1173,8 @@ F 0 "LS101" H 5625 896 50  0000 L CNN
 F 1 "Speaker_Crystal" H 5625 805 50  0000 L CNN
 F 2 "altimeter:CSS-95B30-SMT" H 5415 850 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/670/css-95b30-smt-1311901.pdf" H 5415 850 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/CUI/CSS-95B30-SMT-TR?qs=%2Fha2pyFadujUtUiS6nVN8UjFiyT71DSqrQ1WhaWeieDQerreQwEnLQ%3D%3D" H 5450 900 50  0001 C CNN "Mouser_Link"
+F 5 "CSS-95B30-SMT-TR " H 5450 900 50  0001 C CNN "Parnumber"
 	1    5450 900 
 	1    0    0    -1  
 $EndComp
@@ -1186,6 +1238,8 @@ F 0 "D103" V 4904 871 50  0000 R CNN
 F 1 "1N4148WS" V 4995 871 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-323" H 4950 775 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 4950 950 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/ON-Semiconductor-Fairchild/1N4148WS?qs=sGAEpiMZZMtoHjESLttvkr4bXZrJfFziTdC5C0Y1oek%3D" H 4950 950 50  0001 C CNN "Mouser_Link"
+F 5 "1N4148WS" H 4950 950 50  0001 C CNN "Parnumber"
 	1    4950 950 
 	0    1    1    0   
 $EndComp
@@ -1193,7 +1247,7 @@ Text GLabel 5050 2900 0    50   Input ~ 0
 SPI1_MISO
 Text GLabel 5050 2800 0    50   Input ~ 0
 SPI1_MOSI
-Text GLabel 5050 3100 0    50   Input ~ 0
+Text GLabel 5050 3200 0    50   Input ~ 0
 IMU_ACC_CS
 Text GLabel 5050 2700 0    50   Input ~ 0
 SPI1_SCK
@@ -1203,8 +1257,10 @@ U 1 1 5D631374
 P 5800 3600
 F 0 "U106" H 5800 4725 50  0000 C CNN
 F 1 "BMI088" H 5800 4634 50  0000 C CNN
-F 2 "" H 5650 3650 50  0001 C CNN
+F 2 "altimeter:BMI088" H 5650 3650 50  0001 C CNN
 F 3 "" H 5650 3650 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Bosch-Sensortec/BMI088?qs=sGAEpiMZZMve4%2FbfQkoj%252BKNIMLZP%2FhAQsZAKYu1PzHs%3D" H 5800 3600 50  0001 C CNN "Mouser_Link"
+F 5 "BMI088" H 5800 3600 50  0001 C CNN "Parnumber"
 	1    5800 3600
 	1    0    0    -1  
 $EndComp
@@ -1263,7 +1319,7 @@ Wire Wire Line
 	5050 2700 5300 2700
 Wire Wire Line
 	5050 3100 5300 3100
-Text GLabel 5050 3200 0    50   Input ~ 0
+Text GLabel 5050 3100 0    50   Input ~ 0
 IMU_GYRO_CS
 Wire Wire Line
 	5050 3200 5300 3200
@@ -1296,6 +1352,8 @@ F 0 "C109" V 6371 3550 50  0000 C CNN
 F 1 "100n" V 6462 3550 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6600 3550 50  0001 C CNN
 F 3 "~" H 6600 3550 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012205037?qs=sGAEpiMZZMs0AnBnWHyRQEGbLOF2VP1iQ21DRO%252BfKQRXXkG1Pup5LQ%3D%3D" H 6600 3550 50  0001 C CNN "Mouser_Link"
+F 5 "885012205037" H 6600 3550 50  0001 C CNN "Parnumber"
 	1    6600 3550
 	-1   0    0    1   
 $EndComp
@@ -1307,6 +1365,8 @@ F 0 "C110" V 6771 3550 50  0000 C CNN
 F 1 "100n" V 6862 3550 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7000 3550 50  0001 C CNN
 F 3 "~" H 7000 3550 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012205037?qs=sGAEpiMZZMs0AnBnWHyRQEGbLOF2VP1iQ21DRO%252BfKQRXXkG1Pup5LQ%3D%3D" H 7000 3550 50  0001 C CNN "Mouser_Link"
+F 5 "885012205037" H 7000 3550 50  0001 C CNN "Parnumber"
 	1    7000 3550
 	-1   0    0    1   
 $EndComp
@@ -1350,9 +1410,11 @@ L altimeter:S25L512S U102
 U 1 1 5D50B565
 P 6000 4850
 F 0 "U102" H 6344 4546 50  0000 L CNN
-F 1 "S25L512S" H 6344 4455 50  0000 L CNN
+F 1 "S25FL512SAGMFIR11" H 6344 4455 50  0000 L CNN
 F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 7100 4250 50  0001 C CNN
 F 3 "" H 6000 4850 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Cypress-Semiconductor/S25FL512SAGMFIR11?qs=sGAEpiMZZMtI%252BQ06EiAoG%2FmliUtYpokMApubLr9aMXc%3D" H 6000 4850 50  0001 C CNN "Mouser_Link"
+F 5 "S25FL512SAGMFIR11" H 6000 4850 50  0001 C CNN "Parnumber"
 	1    6000 4850
 	1    0    0    -1  
 $EndComp
@@ -1361,9 +1423,11 @@ L Device:C_Small C111
 U 1 1 5D512E0A
 P 3300 950
 F 0 "C111" H 3392 996 50  0000 L CNN
-F 1 "C_Small" H 3392 905 50  0000 L CNN
+F 1 "100n" H 3392 905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3300 950 50  0001 C CNN
 F 3 "~" H 3300 950 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012205037?qs=sGAEpiMZZMs0AnBnWHyRQEGbLOF2VP1iQ21DRO%252BfKQRXXkG1Pup5LQ%3D%3D" H 3300 950 50  0001 C CNN "Mouser_Link"
+F 5 "885012205037" H 3300 950 50  0001 C CNN "Parnumber"
 	1    3300 950 
 	1    0    0    -1  
 $EndComp
@@ -1372,9 +1436,11 @@ L Device:C_Small C113
 U 1 1 5D513394
 P 3500 950
 F 0 "C113" H 3592 996 50  0000 L CNN
-F 1 "C_Small" H 3592 905 50  0000 L CNN
+F 1 "100n" H 3592 905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3500 950 50  0001 C CNN
 F 3 "~" H 3500 950 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012205037?qs=sGAEpiMZZMs0AnBnWHyRQEGbLOF2VP1iQ21DRO%252BfKQRXXkG1Pup5LQ%3D%3D" H 3500 950 50  0001 C CNN "Mouser_Link"
+F 5 "885012205037" H 3500 950 50  0001 C CNN "Parnumber"
 	1    3500 950 
 	1    0    0    -1  
 $EndComp
@@ -1383,9 +1449,11 @@ L Device:C_Small C115
 U 1 1 5D51377B
 P 3700 950
 F 0 "C115" H 3792 996 50  0000 L CNN
-F 1 "C_Small" H 3792 905 50  0000 L CNN
+F 1 "100n" H 3792 905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3700 950 50  0001 C CNN
 F 3 "~" H 3700 950 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012205037?qs=sGAEpiMZZMs0AnBnWHyRQEGbLOF2VP1iQ21DRO%252BfKQRXXkG1Pup5LQ%3D%3D" H 3700 950 50  0001 C CNN "Mouser_Link"
+F 5 "885012205037" H 3700 950 50  0001 C CNN "Parnumber"
 	1    3700 950 
 	1    0    0    -1  
 $EndComp
@@ -1394,9 +1462,11 @@ L Device:C_Small C116
 U 1 1 5D513A48
 P 3900 950
 F 0 "C116" H 3992 996 50  0000 L CNN
-F 1 "C_Small" H 3992 905 50  0000 L CNN
+F 1 "100n" H 3992 905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3900 950 50  0001 C CNN
 F 3 "~" H 3900 950 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012205037?qs=sGAEpiMZZMs0AnBnWHyRQEGbLOF2VP1iQ21DRO%252BfKQRXXkG1Pup5LQ%3D%3D" H 3900 950 50  0001 C CNN "Mouser_Link"
+F 5 "885012205037" H 3900 950 50  0001 C CNN "Parnumber"
 	1    3900 950 
 	1    0    0    -1  
 $EndComp
@@ -1405,9 +1475,11 @@ L Device:C_Small C112
 U 1 1 5D51426E
 P 3300 1950
 F 0 "C112" H 3392 1996 50  0000 L CNN
-F 1 "C_Small" H 3392 1905 50  0000 L CNN
+F 1 "100n" H 3392 1905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3300 1950 50  0001 C CNN
 F 3 "~" H 3300 1950 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012205037?qs=sGAEpiMZZMs0AnBnWHyRQEGbLOF2VP1iQ21DRO%252BfKQRXXkG1Pup5LQ%3D%3D" H 3300 1950 50  0001 C CNN "Mouser_Link"
+F 5 "885012205037" H 3300 1950 50  0001 C CNN "Parnumber"
 	1    3300 1950
 	1    0    0    -1  
 $EndComp
@@ -1416,9 +1488,11 @@ L Device:C_Small C114
 U 1 1 5D514560
 P 3500 1950
 F 0 "C114" H 3592 1996 50  0000 L CNN
-F 1 "C_Small" H 3592 1905 50  0000 L CNN
+F 1 "100n" H 3592 1905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3500 1950 50  0001 C CNN
 F 3 "~" H 3500 1950 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012205037?qs=sGAEpiMZZMs0AnBnWHyRQEGbLOF2VP1iQ21DRO%252BfKQRXXkG1Pup5LQ%3D%3D" H 3500 1950 50  0001 C CNN "Mouser_Link"
+F 5 "885012205037" H 3500 1950 50  0001 C CNN "Parnumber"
 	1    3500 1950
 	1    0    0    -1  
 $EndComp
@@ -1522,4 +1596,58 @@ Wire Wire Line
 Connection ~ 3300 2150
 Wire Wire Line
 	3300 2150 3300 2050
+$Comp
+L Device:R R102
+U 1 1 5D570C1E
+P 10100 1150
+F 0 "R102" H 10170 1196 50  0000 L CNN
+F 1 "2.7k" H 10170 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10030 1150 50  0001 C CNN
+F 3 "~" H 10100 1150 50  0001 C CNN
+F 4 "CRCW04022K70FKEDC" H 10100 1150 50  0001 C CNN "Parnumber"
+	1    10100 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0154
+U 1 1 5D570F8F
+P 10100 1000
+F 0 "#PWR0154" H 10100 850 50  0001 C CNN
+F 1 "+5V" H 10115 1173 50  0000 C CNN
+F 2 "" H 10100 1000 50  0001 C CNN
+F 3 "" H 10100 1000 50  0001 C CNN
+	1    10100 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 1300 10100 1400
+Connection ~ 10100 1400
+Wire Wire Line
+	10100 1400 10200 1400
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5D5BA2B5
+P 8950 3450
+F 0 "#FLG0101" H 8950 3525 50  0001 C CNN
+F 1 "PWR_FLAG" H 8950 3623 50  0000 C CNN
+F 2 "" H 8950 3450 50  0001 C CNN
+F 3 "~" H 8950 3450 50  0001 C CNN
+	1    8950 3450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1750 2000
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5D5C6995
+P 6600 3300
+F 0 "#FLG0102" H 6600 3375 50  0001 C CNN
+F 1 "PWR_FLAG" V 6600 3428 50  0000 L CNN
+F 2 "" H 6600 3300 50  0001 C CNN
+F 3 "~" H 6600 3300 50  0001 C CNN
+	1    6600 3300
+	0    1    1    0   
+$EndComp
+Connection ~ 6600 3300
+Text Notes 11800 700  0    50   ~ 0
+ToDo's:\n\n- USB Schutzdioden\n- ESD Schutzkondensatoren
 $EndSCHEMATC

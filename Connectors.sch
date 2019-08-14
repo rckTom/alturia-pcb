@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:altimeter-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -22,6 +22,8 @@ F 0 "J202" H 1557 1546 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_10" H 1557 1455 50  0000 R CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical_SMD" H 2000 1500 50  0001 C CNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 1650 250 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Amphenol-FCI/57202-G51-05LF?qs=EpiMZZMs%252BGHln7q6pm24n0txessAMKkUfqCysfDA%3D" H 2000 1500 50  0001 C CNN "Mouser_Link"
+F 5 "57202-G51-05LF " H 2000 1500 50  0001 C CNN "Parnumber"
 	1    2000 1500
 	1    0    0    -1  
 $EndComp
@@ -84,6 +86,8 @@ F 0 "J201" H 1680 3242 50  0000 L CNN
 F 1 "Conn_01x10" H 1680 3151 50  0000 L CNN
 F 2 "Connector_Molex:Molex_MicroClasp_55935-1010_1x10_P2.00mm_Horizontal" H 1600 3250 50  0001 C CNN
 F 3 "~" H 1600 3250 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Molex/55935-1010?qs=%2Fha2pyFaduj3M7T2a9STTQYVOGeLuTIxWP1L4Ymmci%252BgjL3enOzonYHkRZDnKq9I" H 1600 3250 50  0001 C CNN "Mouser_Link"
+F 5 "55935-1010 " H 1600 3250 50  0001 C CNN "Parnumber"
 	1    1600 3250
 	1    0    0    -1  
 $EndComp
@@ -117,17 +121,21 @@ F 0 "J205" H 4830 3242 50  0000 L CNN
 F 1 "Conn_01x04" H 4830 3151 50  0000 L CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal" H 4750 3250 50  0001 C CNN
 F 3 "~" H 4750 3250 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Molex/53048-0410?qs=%2Fha2pyFaduhazv%252BrzlAyvQZXU%2FDmMavUdv7l26oboIbszvaUNyo%252Bpw2d6Y81NNYE" H 4750 3250 50  0001 C CNN "Mouser_Link"
+F 5 "53048-0410" H 4750 3250 50  0001 C CNN "Parnumber"
 	1    4750 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Counter_Clockwise J203
+L Connector_Generic:Conn_02x03_Odd_Even J203
 U 1 1 5D61EC32
 P 3000 3300
 F 0 "J203" H 3050 3617 50  0000 C CNN
 F 1 "Conn_02x03_Counter_Clockwise" H 3050 3526 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 3000 3300 50  0001 C CNN
 F 3 "~" H 3000 3300 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Harwin/M20-9740346?qs=sGAEpiMZZMs%252BGHln7q6pmzlZUuX%2F53qj2xUq9U8k%252BE4%3D" H 3000 3300 50  0001 C CNN "Mouser_Link"
+F 5 "M20-9740346" H 3000 3300 50  0001 C CNN "Parnumber"
 	1    3000 3300
 	1    0    0    -1  
 $EndComp
@@ -136,7 +144,7 @@ L Mechanical:MountingHole_Pad H201
 U 1 1 5D62934E
 P 8350 1000
 AR Path="/5D3DE309/5D62934E" Ref="H201"  Part="1" 
-AR Path="/5D62934E" Ref="H201"  Part="1" 
+AR Path="/5D62934E" Ref="H?"  Part="1" 
 F 0 "H201" H 8450 1046 50  0000 L CNN
 F 1 "MountingHole" H 8450 955 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8350 1000 50  0001 C CNN
@@ -163,6 +171,8 @@ F 0 "J204" H 3907 1917 50  0000 C CNN
 F 1 "USB_B_Micro" H 3907 1826 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 4000 1400 50  0001 C CNN
 F 3 "~" H 4000 1400 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Molex/105017-0001?qs=sGAEpiMZZMulM8LPOQ%252BykxkHE97o%2FWJn1YkS%2FQp33f4%3D" H 3850 1450 50  0001 C CNN "Mouser_Link"
+F 5 "105017-0001 " H 3850 1450 50  0001 C CNN "Parnumber"
 	1    3850 1450
 	1    0    0    -1  
 $EndComp
@@ -223,6 +233,8 @@ F 0 "R201" H 4709 1846 50  0000 L CNN
 F 1 "1.5k" H 4709 1755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 4650 1800 50  0001 C CNN
 F 3 "~" H 4650 1800 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW04021K50FKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3Gu1a8Ybkd9F8%3D" H 4650 1800 50  0001 C CNN "Mouser_Link"
+F 5 "CRCW04021K50FKEDC" H 4650 1800 50  0001 C CNN "Parnumber"
 	1    4650 1800
 	1    0    0    -1  
 $EndComp
@@ -259,4 +271,188 @@ Wire Wire Line
 	8350 1400 8350 1250
 Connection ~ 8350 1250
 NoConn ~ 2500 1700
+Text GLabel 2800 3300 0    50   Input ~ 0
+PWM1
+Text GLabel 3300 3300 2    50   Input ~ 0
+PWM2
+$Comp
+L power:GND #PWR0148
+U 1 1 5D545B8E
+P 2800 3400
+F 0 "#PWR0148" H 2800 3150 50  0001 C CNN
+F 1 "GND" V 2805 3272 50  0000 R CNN
+F 2 "" H 2800 3400 50  0001 C CNN
+F 3 "" H 2800 3400 50  0001 C CNN
+	1    2800 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0149
+U 1 1 5D545FE3
+P 3300 3400
+F 0 "#PWR0149" H 3300 3150 50  0001 C CNN
+F 1 "GND" V 3305 3272 50  0000 R CNN
+F 2 "" H 3300 3400 50  0001 C CNN
+F 3 "" H 3300 3400 50  0001 C CNN
+	1    3300 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0150
+U 1 1 5D546E59
+P 2800 3200
+F 0 "#PWR0150" H 2800 3050 50  0001 C CNN
+F 1 "+5V" V 2815 3328 50  0000 L CNN
+F 2 "" H 2800 3200 50  0001 C CNN
+F 3 "" H 2800 3200 50  0001 C CNN
+	1    2800 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0151
+U 1 1 5D547AB0
+P 3300 3200
+F 0 "#PWR0151" H 3300 3050 50  0001 C CNN
+F 1 "+5V" V 3315 3328 50  0000 L CNN
+F 2 "" H 3300 3200 50  0001 C CNN
+F 3 "" H 3300 3200 50  0001 C CNN
+	1    3300 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0152
+U 1 1 5D553581
+P 4450 3100
+F 0 "#PWR0152" H 4450 2950 50  0001 C CNN
+F 1 "+3.3V" H 4465 3273 50  0000 C CNN
+F 2 "" H 4450 3100 50  0001 C CNN
+F 3 "" H 4450 3100 50  0001 C CNN
+	1    4450 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3100 4450 3150
+Wire Wire Line
+	4450 3150 4550 3150
+$Comp
+L power:GND #PWR0153
+U 1 1 5D553D40
+P 4450 3500
+F 0 "#PWR0153" H 4450 3250 50  0001 C CNN
+F 1 "GND" H 4455 3327 50  0000 C CNN
+F 2 "" H 4450 3500 50  0001 C CNN
+F 3 "" H 4450 3500 50  0001 C CNN
+	1    4450 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3500 4450 3450
+Wire Wire Line
+	4450 3450 4550 3450
+Text GLabel 4550 3350 0    50   Input ~ 0
+UART1_TX
+Text GLabel 4550 3250 0    50   Input ~ 0
+UART1_RX
+NoConn ~ 4150 1650
+$Comp
+L Device:C C201
+U 1 1 5D577CD8
+P 1050 4500
+F 0 "C201" H 1165 4546 50  0000 L CNN
+F 1 "C" H 1165 4455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1088 4350 50  0001 C CNN
+F 3 "~" H 1050 4500 50  0001 C CNN
+	1    1050 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR0155
+U 1 1 5D578FD2
+P 1050 4350
+F 0 "#PWR0155" H 1050 4200 50  0001 C CNN
+F 1 "+BATT" V 1065 4477 50  0000 L CNN
+F 2 "" H 1050 4350 50  0001 C CNN
+F 3 "" H 1050 4350 50  0001 C CNN
+	1    1050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0156
+U 1 1 5D57983C
+P 1050 4650
+F 0 "#PWR0156" H 1050 4400 50  0001 C CNN
+F 1 "GND" V 1055 4522 50  0000 R CNN
+F 2 "" H 1050 4650 50  0001 C CNN
+F 3 "" H 1050 4650 50  0001 C CNN
+	1    1050 4650
+	1    0    0    -1  
+$EndComp
+Text Notes 600  5050 0    50   ~ 0
+ESD Suppressor Capacitor
+$Comp
+L Device:C C202
+U 1 1 5D5800D9
+P 2700 4150
+F 0 "C202" H 2815 4196 50  0000 L CNN
+F 1 "C" H 2815 4105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2738 4000 50  0001 C CNN
+F 3 "~" H 2700 4150 50  0001 C CNN
+	1    2700 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0157
+U 1 1 5D581C2C
+P 2700 4000
+F 0 "#PWR0157" H 2700 3850 50  0001 C CNN
+F 1 "+5V" V 2715 4128 50  0000 L CNN
+F 2 "" H 2700 4000 50  0001 C CNN
+F 3 "" H 2700 4000 50  0001 C CNN
+	1    2700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0158
+U 1 1 5D5820DF
+P 2700 4300
+F 0 "#PWR0158" H 2700 4050 50  0001 C CNN
+F 1 "GND" V 2705 4172 50  0000 R CNN
+F 2 "" H 2700 4300 50  0001 C CNN
+F 3 "" H 2700 4300 50  0001 C CNN
+	1    2700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C203
+U 1 1 5D584D8C
+P 4200 4100
+F 0 "C203" H 4315 4146 50  0000 L CNN
+F 1 "C" H 4315 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4238 3950 50  0001 C CNN
+F 3 "~" H 4200 4100 50  0001 C CNN
+	1    4200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0159
+U 1 1 5D584D98
+P 4200 4250
+F 0 "#PWR0159" H 4200 4000 50  0001 C CNN
+F 1 "GND" V 4205 4122 50  0000 R CNN
+F 2 "" H 4200 4250 50  0001 C CNN
+F 3 "" H 4200 4250 50  0001 C CNN
+	1    4200 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0160
+U 1 1 5D585061
+P 4200 3950
+F 0 "#PWR0160" H 4200 3800 50  0001 C CNN
+F 1 "+3.3V" H 4215 4123 50  0000 C CNN
+F 2 "" H 4200 3950 50  0001 C CNN
+F 3 "" H 4200 3950 50  0001 C CNN
+	1    4200 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
