@@ -1,4 +1,4 @@
-16187509424817138
+16190641073016138
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -72373,6 +72373,13 @@ CSS-95B30-SMT
 4
 2
 altimeter
+alturia_license
+
+
+0
+0
+0
+altimeter
 alturia_logo
 
 
@@ -72381,6 +72388,13 @@ alturia_logo
 0
 altimeter
 layer_indicator
+
+
+0
+0
+0
+altimeter
+up_arrow
 
 
 0

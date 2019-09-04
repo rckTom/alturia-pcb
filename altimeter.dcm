@@ -5,4 +5,10 @@ D 512 Mbit (64 Mbyte), 3.0 V SPI Flash Memory
 K Cypress, NOR-Flash, SOIC16
 $ENDCMP
 #
+$CMP SI7149ADP
+D P-MOSFET transistor, drain/gate/source
+K transistor PMOS P-MOS P-MOSFET
+F ~
+$ENDCMP
+#
 #End Doc Library
