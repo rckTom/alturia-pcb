@@ -934,6 +934,11 @@
       (net 71 IMU_GYRO_CS))
     (pad 13 smd rect (at -0.5 -1.21) (size 0.575 0.25) (layers B.Cu B.Paste B.Mask)
       (net 76 "Net-(U106-Pad13)"))
+    (model ${KIPRJMOD}/3d-models/bmi_088.stp
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal locked (layer F.Cu) (tedit 59FED5CB) (tstamp 5D5071C3)
