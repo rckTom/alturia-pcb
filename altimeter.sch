@@ -1546,6 +1546,7 @@ F 1 "2.7k" H 10170 1105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 10030 1150 50  0001 C CNN
 F 3 "~" H 10100 1150 50  0001 C CNN
 F 4 "CRCW04022K70FKEDC" H 10100 1150 50  0001 C CNN "Parnumber"
+F 5 "https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW04022K70FKEDC?qs=sGAEpiMZZMu61qfTUdNhG9bvwnXh9sSrHB5zaMHoC9p2GBlct%252B1VIg%3D%3D" H 10100 1150 50  0001 C CNN "Mouser_Link"
 	1    10100 1150
 	1    0    0    -1  
 $EndComp
@@ -1649,6 +1650,8 @@ F 0 "Q103" V 7393 1800 50  0000 C CNN
 F 1 "SISS05dn" V 7302 1800 50  0000 C CNN
 F 2 "Package_SO:Vishay_PowerPAK_1212-8_Single" H 7250 1900 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/427/siss05dn-1595673.pdf" H 7050 1800 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Vishay-Siliconix/SISS05DN-T1-GE3?qs=%2Fha2pyFadugz6r8MF7HjV9XJLYucB9iA801wzI6YUU8%3D" H 7050 1800 50  0001 C CNN "Mouser_Link"
+F 5 "SISS05DN-T1-GE3" H 7050 1800 50  0001 C CNN "Parnumber"
 	1    7050 1800
 	0    -1   -1   0   
 $EndComp

@@ -499,6 +499,8 @@ F 0 "U201" V 6050 1900 50  0000 L CNN
 F 1 "USBLC6-2SC6" V 6150 1900 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-666" H 5150 1950 50  0001 C CNN
 F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 6100 1900 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/STMicroelectronics/USBLC6-2SC6?qs=sGAEpiMZZMvxHShE6Whpu%2FcIE2H5IOBdvREMGHqn6h0%3D" H 5900 1550 50  0001 C CNN "Mouser_Link"
+F 5 "USBLC6-2SC6" H 5900 1550 50  0001 C CNN "Parnumber"
 	1    5900 1550
 	0    1    1    0   
 $EndComp
