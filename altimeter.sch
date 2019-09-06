@@ -15,19 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_ST_STM32F3:STM32F302CCTx U101
-U 1 1 5D3C66D6
-P 2450 2600
-F 0 "U101" H 2950 1100 50  0000 C CNN
-F 1 "STM32F302CCTx" H 3200 1000 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 1850 1200 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00094064.pdf" H 2450 2600 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/STMicroelectronics/STM32F302CCT6?qs=sGAEpiMZZMuoKKEcg8mMKOBJ8oUHiKNHPcYeia7O8P4%3D" H 2450 2600 50  0001 C CNN "Mouser_Link"
-F 5 "STM32F302CCT6" H 2450 2600 50  0001 C CNN "Parnumber"
-	1    2450 2600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Sensor_Pressure:MS5611-01BA U107
 U 1 1 5D3C7446
 P 9700 5150
@@ -989,8 +976,6 @@ Wire Wire Line
 Connection ~ 850  2100
 Wire Wire Line
 	850  2100 1000 2100
-Wire Wire Line
-	1100 1900 1200 1900
 Connection ~ 1200 1900
 Wire Wire Line
 	900  1900 850  1900
@@ -1284,7 +1269,7 @@ IMU_GYRO_CS
 Wire Wire Line
 	1550 1900 1550 2100
 Wire Wire Line
-	1200 1900 1550 1900
+	1200 1900 1250 1900
 Wire Wire Line
 	1550 2200 1550 2300
 Wire Wire Line
@@ -1752,4 +1737,19 @@ F 3 "" H 7100 1200 50  0001 C CNN
 	1    7100 1200
 	0    -1   -1   0   
 $EndComp
+$Comp
+L MCU_ST_STM32F3:STM32F303CCTx U101
+U 1 1 5D72F281
+P 2450 2600
+F 0 "U101" H 2400 1011 50  0000 C CNN
+F 1 "STM32F303CCTx" H 2400 920 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 1850 1200 50  0001 R CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32f303cc.pdf" H 2450 2600 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/STMicroelectronics/STM32F303CCT6?qs=sGAEpiMZZMts0YcPTleK%252BUygSfs3Z%2F6o" H 2450 2600 50  0001 C CNN "Mouser_Link"
+F 5 "STM32F303CCT6 " H 2450 2600 50  0001 C CNN "Parnumber"
+	1    2450 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1900 1200 1900
 $EndSCHEMATC
