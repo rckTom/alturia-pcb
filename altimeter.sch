@@ -110,45 +110,41 @@ Wire Wire Line
 Wire Wire Line
 	2550 4200 2550 4100
 Connection ~ 2450 4200
-Wire Wire Line
-	1550 2200 1750 2200
-Wire Wire Line
-	1550 2100 1750 2100
 $Comp
 L Device:C_Small C101
 U 1 1 5D4147AB
-P 1000 1900
-F 0 "C101" V 771 1900 50  0000 C CNN
-F 1 "22p" V 862 1900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1000 1900 50  0001 C CNN
-F 3 "~" H 1000 1900 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/Murata-Electronics/GCM1555G1H220JA16D?qs=sGAEpiMZZMs0AnBnWHyRQAsAWwhBCY7bDLShlSp46t28ceXO6IsPuQ%3D%3D" H 1000 1900 50  0001 C CNN "Mouser_Link"
-F 5 "GCM1555G1H220JA16D" H 1000 1900 50  0001 C CNN "Parnumber"
-	1    1000 1900
+P 950 1550
+F 0 "C101" V 721 1550 50  0000 C CNN
+F 1 "22p" V 812 1550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 950 1550 50  0001 C CNN
+F 3 "~" H 950 1550 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Murata-Electronics/GCM1555G1H220JA16D?qs=sGAEpiMZZMs0AnBnWHyRQAsAWwhBCY7bDLShlSp46t28ceXO6IsPuQ%3D%3D" H 950 1550 50  0001 C CNN "Mouser_Link"
+F 5 "GCM1555G1H220JA16D" H 950 1550 50  0001 C CNN "Parnumber"
+	1    950  1550
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C_Small C102
 U 1 1 5D415036
-P 1000 2300
-F 0 "C102" V 1137 2300 50  0000 C CNN
-F 1 "22p" V 1228 2300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1000 2300 50  0001 C CNN
-F 3 "~" H 1000 2300 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/Murata-Electronics/GCM1555G1H220JA16D?qs=sGAEpiMZZMs0AnBnWHyRQAsAWwhBCY7bDLShlSp46t28ceXO6IsPuQ%3D%3D" H 1000 2300 50  0001 C CNN "Mouser_Link"
-F 5 "GCM1555G1H220JA16D" H 1000 2300 50  0001 C CNN "Parnumber"
-	1    1000 2300
+P 950 1950
+F 0 "C102" V 1087 1950 50  0000 C CNN
+F 1 "22p" V 1178 1950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 950 1950 50  0001 C CNN
+F 3 "~" H 950 1950 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Murata-Electronics/GCM1555G1H220JA16D?qs=sGAEpiMZZMs0AnBnWHyRQAsAWwhBCY7bDLShlSp46t28ceXO6IsPuQ%3D%3D" H 950 1950 50  0001 C CNN "Mouser_Link"
+F 5 "GCM1555G1H220JA16D" H 950 1950 50  0001 C CNN "Parnumber"
+	1    950  1950
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 5D4163E2
-P 800 2100
-F 0 "#PWR0101" H 800 1850 50  0001 C CNN
-F 1 "GND" V 805 1972 50  0000 R CNN
-F 2 "" H 800 2100 50  0001 C CNN
-F 3 "" H 800 2100 50  0001 C CNN
-	1    800  2100
+P 750 1750
+F 0 "#PWR0101" H 750 1500 50  0001 C CNN
+F 1 "GND" V 755 1622 50  0000 R CNN
+F 2 "" H 750 1750 50  0001 C CNN
+F 3 "" H 750 1750 50  0001 C CNN
+	1    750  1750
 	0    1    1    0   
 $EndComp
 Text GLabel 3050 3800 2    50   Input ~ 0
@@ -401,7 +397,7 @@ F 3 "" H 10100 4700 50  0001 C CNN
 	1    10100 4700
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1750 1700 0    50   Input ~ 0
+Text GLabel 3050 3900 2    50   Input ~ 0
 LED1
 $Comp
 L Regulator_Linear:LF50_TO252 U105
@@ -950,46 +946,40 @@ $EndComp
 $Comp
 L Device:Crystal_GND24 Y1
 U 1 1 5D515671
-P 1200 2100
-F 0 "Y1" V 850 2100 50  0000 L CNN
-F 1 "Crystal_GND24" V 950 2100 50  0001 L CNN
-F 2 "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm" H 1200 2100 50  0001 C CNN
-F 3 "http://www5.epsondevice.com/en/products/crystal_unit/tsx3225.html#" H 1200 2100 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/Epson-Timing/TSX-3225-240000MF15X-AC3?qs=sGAEpiMZZMsBj6bBr9Q9acukpafrIaZ11siWonQt25M%3D" V 1200 2100 50  0001 C CNN "Mouser_Link"
-F 5 "TSX-3225 24.0000MF15X-AC3 " V 1200 2100 50  0001 C CNN "Parnumber"
-	1    1200 2100
+P 1150 1750
+F 0 "Y1" V 800 1750 50  0000 L CNN
+F 1 "Crystal_GND24" V 900 1750 50  0001 L CNN
+F 2 "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm" H 1150 1750 50  0001 C CNN
+F 3 "http://www5.epsondevice.com/en/products/crystal_unit/tsx3225.html#" H 1150 1750 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Epson-Timing/TSX-3225-240000MF15X-AC3?qs=sGAEpiMZZMsBj6bBr9Q9acukpafrIaZ11siWonQt25M%3D" V 1150 1750 50  0001 C CNN "Mouser_Link"
+F 5 "TSX-3225 24.0000MF15X-AC3 " V 1150 1750 50  0001 C CNN "Parnumber"
+	1    1150 1750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1200 1950 1200 1900
+	1150 1600 1150 1550
 Wire Wire Line
-	1200 2250 1200 2300
+	1150 1900 1150 1950
 Wire Wire Line
-	1100 2300 1200 2300
-Connection ~ 1200 2300
+	750  1750 800  1750
 Wire Wire Line
-	800  2100 850  2100
+	800  1950 800  1750
+Connection ~ 800  1750
 Wire Wire Line
-	900  2300 850  2300
+	800  1750 950  1750
 Wire Wire Line
-	850  2300 850  2100
-Connection ~ 850  2100
+	850  1550 800  1550
 Wire Wire Line
-	850  2100 1000 2100
-Connection ~ 1200 1900
-Wire Wire Line
-	900  1900 850  1900
-Wire Wire Line
-	850  1900 850  2100
+	800  1550 800  1750
 $Comp
 L power:GND #PWR0131
 U 1 1 5D547996
-P 1400 2100
-F 0 "#PWR0131" H 1400 1850 50  0001 C CNN
-F 1 "GND" V 1405 1972 50  0001 R CNN
-F 2 "" H 1400 2100 50  0001 C CNN
-F 3 "" H 1400 2100 50  0001 C CNN
-	1    1400 2100
+P 1350 1750
+F 0 "#PWR0131" H 1350 1500 50  0001 C CNN
+F 1 "GND" V 1355 1622 50  0001 R CNN
+F 2 "" H 1350 1750 50  0001 C CNN
+F 3 "" H 1350 1750 50  0001 C CNN
+	1    1350 1750
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1128,16 +1118,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0139
 U 1 1 5D56CD7F
-P 5150 1900
-F 0 "#PWR0139" H 5150 1650 50  0001 C CNN
-F 1 "GND" H 5155 1727 50  0000 C CNN
-F 2 "" H 5150 1900 50  0001 C CNN
-F 3 "" H 5150 1900 50  0001 C CNN
-	1    5150 1900
+P 5150 2100
+F 0 "#PWR0139" H 5150 1850 50  0001 C CNN
+F 1 "GND" H 5155 1927 50  0000 C CNN
+F 2 "" H 5150 2100 50  0001 C CNN
+F 3 "" H 5150 2100 50  0001 C CNN
+	1    5150 2100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 1900 5150 1700
+	5150 2100 5150 2000
 $Comp
 L power:+5V #PWR0140
 U 1 1 5D572543
@@ -1156,7 +1146,7 @@ Wire Wire Line
 Text GLabel 4550 1500 0    50   Input ~ 0
 SUMMER
 Wire Wire Line
-	4550 1500 4850 1500
+	4550 1500 4700 1500
 Wire Wire Line
 	4950 800  4950 750 
 Wire Wire Line
@@ -1266,14 +1256,6 @@ Wire Wire Line
 	5050 3200 5300 3200
 Text GLabel 1750 2600 0    50   Input ~ 0
 IMU_GYRO_CS
-Wire Wire Line
-	1550 1900 1550 2100
-Wire Wire Line
-	1200 1900 1250 1900
-Wire Wire Line
-	1550 2200 1550 2300
-Wire Wire Line
-	1200 2300 1550 2300
 $Comp
 L power:+3.3V #PWR0143
 U 1 1 5D6DDAC8
@@ -1342,9 +1324,9 @@ Text GLabel 6300 2700 2    50   Input ~ 0
 INT1
 Text GLabel 6300 2900 2    50   Input ~ 0
 INT2
-Text GLabel 3050 3900 2    50   Input ~ 0
+Text GLabel 1750 2200 0    50   Input ~ 0
 INT1
-Text GLabel 1750 1800 0    50   Input ~ 0
+Text GLabel 1750 2100 0    50   Input ~ 0
 INT2
 $Comp
 L altimeter:S25L512S U102
@@ -1591,18 +1573,8 @@ $EndComp
 Connection ~ 6600 3300
 Text GLabel 5300 5500 0    50   Input ~ 0
 FLASH_HOLD
-Text GLabel 1250 1500 0    50   Input ~ 0
+Text GLabel 1750 2000 0    50   Input ~ 0
 FLASH_HOLD
-Wire Wire Line
-	1750 2000 1600 2000
-Wire Wire Line
-	1600 2000 1600 1850
-Wire Wire Line
-	1600 1850 1400 1850
-Wire Wire Line
-	1400 1850 1400 1500
-Wire Wire Line
-	1400 1500 1250 1500
 $Comp
 L power:+BATT #PWR0162
 U 1 1 5D71F539
@@ -1754,5 +1726,54 @@ F 5 "STM32F303CCT6 " H 2450 2600 50  0001 C CNN "Parnumber"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 1900 1200 1900
+	1050 1550 1150 1550
+Wire Wire Line
+	1050 1950 1150 1950
+Wire Wire Line
+	850  1950 800  1950
+Wire Wire Line
+	1150 1950 1200 1950
+Wire Wire Line
+	1200 1950 1200 1900
+Wire Wire Line
+	1200 1900 1550 1900
+Wire Wire Line
+	1550 1900 1550 1800
+Wire Wire Line
+	1550 1800 1750 1800
+Connection ~ 1150 1950
+Wire Wire Line
+	1750 1700 1550 1700
+Wire Wire Line
+	1550 1700 1550 1600
+Wire Wire Line
+	1550 1600 1200 1600
+Wire Wire Line
+	1200 1600 1200 1550
+Wire Wire Line
+	1200 1550 1150 1550
+Connection ~ 1150 1550
+$Comp
+L Device:R R106
+U 1 1 5D87B7D0
+P 4700 1700
+F 0 "R106" H 4770 1746 50  0000 L CNN
+F 1 "2.7k" H 4770 1655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4630 1700 50  0001 C CNN
+F 3 "~" H 4700 1700 50  0001 C CNN
+	1    4700 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 1550 4700 1500
+Connection ~ 4700 1500
+Wire Wire Line
+	4700 1500 4850 1500
+Wire Wire Line
+	4700 1850 4700 2000
+Wire Wire Line
+	4700 2000 5150 2000
+Connection ~ 5150 2000
+Wire Wire Line
+	5150 2000 5150 1700
 $EndSCHEMATC
