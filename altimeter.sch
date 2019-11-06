@@ -1078,7 +1078,7 @@ UART1_TX
 Text GLabel 3050 3400 2    50   Input ~ 0
 UART1_RX
 Text GLabel 1750 3400 0    50   Input ~ 0
-IMU_ACC_CS
+IMU_GYRO_CS
 Text GLabel 1750 3200 0    50   Input ~ 0
 PWM1
 Text GLabel 1750 3300 0    50   Input ~ 0
@@ -1178,7 +1178,7 @@ Text GLabel 5050 2900 0    50   Input ~ 0
 SPI1_MISO
 Text GLabel 5050 2800 0    50   Input ~ 0
 SPI1_MOSI
-Text GLabel 5050 3200 0    50   Input ~ 0
+Text GLabel 5050 3100 0    50   Input ~ 0
 IMU_ACC_CS
 Text GLabel 5050 2700 0    50   Input ~ 0
 SPI1_SCK
@@ -1250,12 +1250,12 @@ Wire Wire Line
 	5050 2700 5300 2700
 Wire Wire Line
 	5050 3100 5300 3100
-Text GLabel 5050 3100 0    50   Input ~ 0
+Text GLabel 5050 3200 0    50   Input ~ 0
 IMU_GYRO_CS
 Wire Wire Line
 	5050 3200 5300 3200
 Text GLabel 1750 2600 0    50   Input ~ 0
-IMU_GYRO_CS
+IMU_ACC_CS
 $Comp
 L power:+3.3V #PWR0143
 U 1 1 5D6DDAC8
