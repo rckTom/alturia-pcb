@@ -1,4 +1,3 @@
 (fp_lib_table
   (lib (name altimeter)(type KiCad)(uri ${KIPRJMOD}/altimeter.pretty)(options "")(descr ""))
-  (lib (name Connector_Molex)(type KiCad)(uri /home/thomas/Projects/kicad-footprints/Connector_Molex.pretty)(options "")(descr ""))
 )
