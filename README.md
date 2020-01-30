@@ -3,8 +3,8 @@
 This repository contains all data to build the hardware of the Alturia rocket flight computer. 
 
 ## Features
--  STM32F303CC CPU (40Kb Ram, 512Kb internal Flash)
--  MS5611 Barometric pressure sensor
+-  STM32F303CC CPU (48Kb Ram, 256Kb internal Flash)
+-  MS5607 Barometric pressure sensor
 -  BMI088 IMU (Acceleration: +-24g, rotational rate: +-2000°/s)
 -  AIS2120SXTR high acceleration sensor (+-120g)
 -  64 Megabyte external flash for logging and configuration data
