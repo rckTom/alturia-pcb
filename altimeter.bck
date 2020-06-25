@@ -1,13 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP MT25Q
-D Micron MT25Q NOR Flash
-K Micron, NOR-Flash, SO2-16
+$CMP LDL212
+F https://www.st.com/resource/en/datasheet/ldl212.pdf
 $ENDCMP
 #
 $CMP S25L512S
 D 512 Mbit (64 Mbyte), 3.0 V SPI Flash Memory
 K Cypress, NOR-Flash, SOIC16
+$ENDCMP
+#
+$CMP SI7149ADP
+D P-MOSFET transistor, drain/gate/source
+K transistor PMOS P-MOS P-MOSFET
+F ~
 $ENDCMP
 #
 #End Doc Library

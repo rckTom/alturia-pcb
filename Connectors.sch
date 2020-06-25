@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 6
 Title ""
 Date ""
-Rev ""
+Rev "v 1.2 rev.A"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -491,7 +491,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 950  5800 1050
 $Comp
-L Power_Protection:USBLC6-2SC6 U201
+L altimeter-rescue:USBLC6-2SC6-Power_Protection U201
 U 1 1 5D7DF314
 P 5900 1550
 F 0 "U201" V 6050 1900 50  0000 L CNN
@@ -515,4 +515,254 @@ Wire Wire Line
 	5200 2150 5800 2150
 Wire Wire Line
 	5100 950  5800 950 
+Text GLabel 7500 3000 0    50   Input ~ 0
+I2C_SCL
+Text GLabel 7500 2900 0    50   Input ~ 0
+I2C_SDA
+$Comp
+L Connector_Generic_MountingPin:Conn_01x10_MountingPin J206
+U 1 1 5F26AAFB
+P 7700 3300
+F 0 "J206" H 7788 3214 50  0000 L CNN
+F 1 "Conn_01x10_MountingPin" H 7788 3123 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53398-1071_1x10-1MP_P1.25mm_Vertical" H 7700 3300 50  0001 C CNN
+F 3 "~" H 7700 3300 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Molex/53398-1071?qs=%2Fha2pyFaduhYrC0nzbiX9cKRUf%2FVssYiuUxFMhDDvKdlRqeC7ZSoLJfREeJWSxiv" H 7700 3300 50  0001 C CNN "Mouser_Link"
+F 5 "53398-1071" H 7700 3300 50  0001 C CNN "Parnumber"
+	1    7700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5F26F05F
+P 7700 4000
+F 0 "#PWR0106" H 7700 3750 50  0001 C CNN
+F 1 "GND" H 7705 3827 50  0000 C CNN
+F 2 "" H 7700 4000 50  0001 C CNN
+F 3 "" H 7700 4000 50  0001 C CNN
+	1    7700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L altimeter:ATA6561 U202
+U 1 1 5F31CB3C
+P 6450 3350
+F 0 "U202" H 6475 3865 50  0000 C CNN
+F 1 "ATA6561" H 6475 3774 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm" H 6200 3700 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005991B.pdf" H 6200 3700 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Microchip-Technology/ATA6561-GBQW-N?qs=sGAEpiMZZMve4%2FbfQkoj%252BI%2F7t6KV9V5GttbTFJRO2QE%3D" H 6450 3350 50  0001 C CNN "Mouser_Link"
+F 5 "ATA6561-GBQW-N" H 6450 3350 50  0001 C CNN "Parnumber"
+	1    6450 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0165
+U 1 1 5F32061A
+P 5950 2850
+F 0 "#PWR0165" H 5950 2700 50  0001 C CNN
+F 1 "+5V" H 5965 3023 50  0000 C CNN
+F 2 "" H 5950 2850 50  0001 C CNN
+F 3 "" H 5950 2850 50  0001 C CNN
+	1    5950 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2850 5950 3100
+Wire Wire Line
+	5950 3100 6050 3100
+$Comp
+L power:+3.3V #PWR0166
+U 1 1 5F3217FB
+P 5750 2850
+F 0 "#PWR0166" H 5750 2700 50  0001 C CNN
+F 1 "+3.3V" H 5765 3023 50  0000 C CNN
+F 2 "" H 5750 2850 50  0001 C CNN
+F 3 "" H 5750 2850 50  0001 C CNN
+	1    5750 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2850 5750 3200
+Wire Wire Line
+	5750 3200 6050 3200
+Text GLabel 6050 3400 0    50   Input ~ 0
+CAN_RX
+Text GLabel 6050 3300 0    50   Input ~ 0
+CAN_STDBY
+Text GLabel 6050 3500 0    50   Input ~ 0
+CAN_TX
+$Comp
+L power:GND #PWR0167
+U 1 1 5F326851
+P 6000 3700
+F 0 "#PWR0167" H 6000 3450 50  0001 C CNN
+F 1 "GND" H 6005 3527 50  0000 C CNN
+F 2 "" H 6000 3700 50  0001 C CNN
+F 3 "" H 6000 3700 50  0001 C CNN
+	1    6000 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3700 6000 3600
+Wire Wire Line
+	6000 3600 6050 3600
+$Comp
+L power:GND #PWR0168
+U 1 1 5EC7967D
+P 7000 3700
+F 0 "#PWR0168" H 7000 3450 50  0001 C CNN
+F 1 "GND" H 7005 3527 50  0000 C CNN
+F 2 "" H 7000 3700 50  0001 C CNN
+F 3 "" H 7000 3700 50  0001 C CNN
+	1    7000 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3600 7000 3600
+Wire Wire Line
+	7000 3600 7000 3700
+$Comp
+L Device:C C204
+U 1 1 5EC7B23E
+P 7050 2400
+F 0 "C204" H 7165 2446 50  0000 L CNN
+F 1 "100n" H 7165 2355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7088 2250 50  0001 C CNN
+F 3 "~" H 7050 2400 50  0001 C CNN
+	1    7050 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C205
+U 1 1 5EC7B77C
+P 7500 2400
+F 0 "C205" H 7615 2446 50  0000 L CNN
+F 1 "100n" H 7615 2355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7538 2250 50  0001 C CNN
+F 3 "~" H 7500 2400 50  0001 C CNN
+	1    7500 2400
+	1    0    0    -1  
+$EndComp
+Text Label 5150 950  0    50   ~ 0
+USB_D_RAW_N
+Text Label 5250 2150 0    50   ~ 0
+USB_D_RAW_P
+Text GLabel 7500 3300 0    50   Input ~ 0
+UART4_TX
+Text GLabel 7500 3400 0    50   Input ~ 0
+UART4_RX
+$Comp
+L power:GND #PWR0171
+U 1 1 5ECA7E6C
+P 7400 3850
+F 0 "#PWR0171" H 7400 3600 50  0001 C CNN
+F 1 "GND" H 7405 3677 50  0000 C CNN
+F 2 "" H 7400 3850 50  0001 C CNN
+F 3 "" H 7400 3850 50  0001 C CNN
+	1    7400 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 3850 7400 3800
+Wire Wire Line
+	7400 3800 7500 3800
+Wire Wire Line
+	7250 3100 7500 3100
+Wire Wire Line
+	7250 3200 7500 3200
+$Comp
+L power:+3.3V #PWR0172
+U 1 1 5ED61E73
+P 7500 3700
+F 0 "#PWR0172" H 7500 3550 50  0001 C CNN
+F 1 "+3.3V" V 7515 3828 50  0000 L CNN
+F 2 "" H 7500 3700 50  0001 C CNN
+F 3 "" H 7500 3700 50  0001 C CNN
+	1    7500 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0173
+U 1 1 5EDBA912
+P 7500 2250
+F 0 "#PWR0173" H 7500 2100 50  0001 C CNN
+F 1 "+5V" H 7515 2423 50  0000 C CNN
+F 2 "" H 7500 2250 50  0001 C CNN
+F 3 "" H 7500 2250 50  0001 C CNN
+	1    7500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0175
+U 1 1 5EDBAC5B
+P 7050 2250
+F 0 "#PWR0175" H 7050 2100 50  0001 C CNN
+F 1 "+3.3V" H 7065 2423 50  0000 C CNN
+F 2 "" H 7050 2250 50  0001 C CNN
+F 3 "" H 7050 2250 50  0001 C CNN
+	1    7050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0176
+U 1 1 5EDBBC9F
+P 7050 2550
+F 0 "#PWR0176" H 7050 2300 50  0001 C CNN
+F 1 "GND" H 7055 2377 50  0000 C CNN
+F 2 "" H 7050 2550 50  0001 C CNN
+F 3 "" H 7050 2550 50  0001 C CNN
+	1    7050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0177
+U 1 1 5EDBC63A
+P 7500 2550
+F 0 "#PWR0177" H 7500 2300 50  0001 C CNN
+F 1 "GND" H 7505 2377 50  0000 C CNN
+F 2 "" H 7500 2550 50  0001 C CNN
+F 3 "" H 7500 2550 50  0001 C CNN
+	1    7500 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 7500 3500 0    50   Input ~ 0
+GPIO1
+Text GLabel 7500 3600 0    50   Input ~ 0
+GPIO2
+$Comp
+L Device:R R202
+U 1 1 5EF194ED
+P 7000 3150
+F 0 "R202" H 7070 3196 50  0000 L CNN
+F 1 "120" H 7070 3105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6930 3150 50  0001 C CNN
+F 3 "~" H 7000 3150 50  0001 C CNN
+F 4 "https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf" H 7000 3150 50  0001 C CNN "Mouser_Link"
+F 5 "ERJ-6RBD1200V" H 7000 3150 50  0001 C CNN "Parnumber"
+	1    7000 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3200 6900 3300
+Wire Wire Line
+	6900 3300 7000 3300
+Wire Wire Line
+	7000 3300 7050 3300
+Wire Wire Line
+	7050 3300 7250 3100
+Connection ~ 7000 3300
+Wire Wire Line
+	7050 3000 7000 3000
+Wire Wire Line
+	7050 3000 7250 3200
+Wire Wire Line
+	7000 3000 6900 3000
+Wire Wire Line
+	6900 3000 6900 3100
+Connection ~ 7000 3000
+Text Label 7300 3200 0    50   ~ 0
+CAN_H
+Text Label 7300 3100 0    50   ~ 0
+CAN_L
 $EndSCHEMATC

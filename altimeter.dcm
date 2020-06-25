@@ -1,5 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BMM150
+F https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmm150-ds001.pdf
+$ENDCMP
+#
+$CMP LDL212
+F https://www.st.com/resource/en/datasheet/ldl212.pdf
+$ENDCMP
+#
 $CMP S25L512S
 D 512 Mbit (64 Mbyte), 3.0 V SPI Flash Memory
 K Cypress, NOR-Flash, SOIC16
@@ -9,6 +17,10 @@ $CMP SI7149ADP
 D P-MOSFET transistor, drain/gate/source
 K transistor PMOS P-MOS P-MOSFET
 F ~
+$ENDCMP
+#
+$CMP TLV767
+F http://www.ti.com/lit/ds/symlink/tlv767.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&DCM=yes&ref_url=https%3A%2F%2Fwww.mouser.de%2F&distId=26
 $ENDCMP
 #
 #End Doc Library
