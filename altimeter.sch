@@ -323,8 +323,8 @@ F 0 "C104" H 9442 3696 50  0000 L CNN
 F 1 "4.7u" H 9442 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9350 3650 50  0001 C CNN
 F 3 "~" H 9350 3650 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/KEMET/C0805C104Z3VACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2FdZzrd8bbt%252Bc%3D" H 9350 3650 50  0001 C CNN "Mouser_Link"
-F 5 "C0805C104Z3VACTU" H 9350 3650 50  0001 C CNN "Parnumber"
+F 4 "https://www.mouser.de/ProductDetail/Taiyo-Yuden/GMK212BBJ475KD-T?qs=VWNNG7jHlrJu0gRQmF8TjA%3D%3D" H 9350 3650 50  0001 C CNN "Mouser_Link"
+F 5 "GMK212BBJ475KD-T" H 9350 3650 50  0001 C CNN "Parnumber"
 	1    9350 3650
 	1    0    0    -1  
 $EndComp
@@ -359,8 +359,8 @@ F 0 "C107" H 10842 3696 50  0000 L CNN
 F 1 "4.7u" H 10842 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 10750 3650 50  0001 C CNN
 F 3 "~" H 10750 3650 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/Taiyo-Yuden/EMK107BJ225MA-T?qs=sGAEpiMZZMs0AnBnWHyRQPSjYu%2Fkbgu8gi8YbsqojVfHLlKjG2ASkw%3D%3D" H 10750 3650 50  0001 C CNN "Mouser_Link"
-F 5 "EMK107BJ225MA-T" H 10750 3650 50  0001 C CNN "Parnumber"
+F 4 "https://www.mouser.de/ProductDetail/Taiyo-Yuden/GMK212BBJ475KD-T?qs=VWNNG7jHlrJu0gRQmF8TjA%3D%3D" H 10750 3650 50  0001 C CNN "Mouser_Link"
+F 5 "GMK212BBJ475KD-T" H 10750 3650 50  0001 C CNN "Parnumber"
 	1    10750 3650
 	1    0    0    -1  
 $EndComp
@@ -392,8 +392,8 @@ F 0 "C108" H 10092 2446 50  0000 L CNN
 F 1 "2.2u" H 10092 2355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10000 2400 50  0001 C CNN
 F 3 "~" H 10000 2400 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/Taiyo-Yuden/EMK107ABJ475KA-T?qs=sGAEpiMZZMsh%252B1woXyUXjzXZPAgA2%252BEM0YjaF6PuMqo%3D" H 10000 2400 50  0001 C CNN "Mouser_Link"
-F 5 "EMK107ABJ475KA-T" H 10000 2400 50  0001 C CNN "Parnumber"
+F 4 "" H 10000 2400 50  0001 C CNN "Mouser_Link"
+F 5 "EMK107BJ225MA-T" H 10000 2400 50  0001 C CNN "Parnumber"
 	1    10000 2400
 	1    0    0    -1  
 $EndComp
@@ -1695,8 +1695,8 @@ F 0 "C118" H 992 1146 50  0000 L CNN
 F 1 "2.2u" H 992 1055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 900 1100 50  0001 C CNN
 F 3 "~" H 900 1100 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012205037?qs=sGAEpiMZZMs0AnBnWHyRQEGbLOF2VP1iQ21DRO%252BfKQRXXkG1Pup5LQ%3D%3D" H 900 1100 50  0001 C CNN "Mouser_Link"
-F 5 "885012205037" H 900 1100 50  0001 C CNN "Parnumber"
+F 4 "https://www.mouser.de/ProductDetail/Yageo/CC0402KRX5R7BB225?qs=shS2SvXCj6KxdMpn6SQPQQ%3D%3D" H 900 1100 50  0001 C CNN "Mouser_Link"
+F 5 "CC0402KRX5R7BB225 " H 900 1100 50  0001 C CNN "Parnumber"
 	1    900  1100
 	1    0    0    -1  
 $EndComp
@@ -1708,8 +1708,8 @@ F 0 "C117" H 658 1146 50  0000 R CNN
 F 1 "2.2u" H 658 1055 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 750 1100 50  0001 C CNN
 F 3 "~" H 750 1100 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012205037?qs=sGAEpiMZZMs0AnBnWHyRQEGbLOF2VP1iQ21DRO%252BfKQRXXkG1Pup5LQ%3D%3D" H 750 1100 50  0001 C CNN "Mouser_Link"
-F 5 "885012205037" H 750 1100 50  0001 C CNN "Parnumber"
+F 4 "https://www.mouser.de/ProductDetail/Yageo/CC0402KRX5R7BB225?qs=shS2SvXCj6KxdMpn6SQPQQ%3D%3D" H 750 1100 50  0001 C CNN "Mouser_Link"
+F 5 "CC0402KRX5R7BB225 " H 750 1100 50  0001 C CNN "Parnumber"
 	1    750  1100
 	1    0    0    -1  
 $EndComp
@@ -1751,8 +1751,8 @@ F 0 "C119" H 8509 2446 50  0000 R CNN
 F 1 "1u" H 8509 2355 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8600 2400 50  0001 C CNN
 F 3 "~" H 8600 2400 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/Taiyo-Yuden/EMK107BJ225MA-T?qs=sGAEpiMZZMs0AnBnWHyRQPSjYu%2Fkbgu8gi8YbsqojVfHLlKjG2ASkw%3D%3D" H 8600 2400 50  0001 C CNN "Mouser_Link"
-F 5 "EMK107BJ225MA-T" H 8600 2400 50  0001 C CNN "Parnumber"
+F 4 "https://www.mouser.de/ProductDetail/Taiyo-Yuden/UMF212B7105KGHT?qs=%252B6g0mu59x7KoF6NN%2FES6FQ%3D%3D" H 8600 2400 50  0001 C CNN "Mouser_Link"
+F 5 "UMF212B7105KGHT" H 8600 2400 50  0001 C CNN "Parnumber"
 	1    8600 2400
 	1    0    0    -1  
 $EndComp
@@ -1863,8 +1863,8 @@ F 0 "C120" H 7992 4196 50  0000 L CNN
 F 1 "4.7u" H 7992 4105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7900 4150 50  0001 C CNN
 F 3 "~" H 7900 4150 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/KEMET/C0805C104Z3VACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2FdZzrd8bbt%252Bc%3D" H 7900 4150 50  0001 C CNN "Mouser_Link"
-F 5 "C0805C104Z3VACTU" H 7900 4150 50  0001 C CNN "Parnumber"
+F 4 "https://www.mouser.de/ProductDetail/Taiyo-Yuden/GMK212BBJ475KD-T?qs=VWNNG7jHlrJu0gRQmF8TjA%3D%3D" H 7900 4150 50  0001 C CNN "Mouser_Link"
+F 5 "GMK212BBJ475KD-T" H 7900 4150 50  0001 C CNN "Parnumber"
 	1    7900 4150
 	1    0    0    -1  
 $EndComp
@@ -1876,8 +1876,8 @@ F 0 "C121" H 8192 4196 50  0000 L CNN
 F 1 "4.7u" H 8192 4105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8100 4150 50  0001 C CNN
 F 3 "~" H 8100 4150 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/KEMET/C0805C104Z3VACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2FdZzrd8bbt%252Bc%3D" H 8100 4150 50  0001 C CNN "Mouser_Link"
-F 5 "C0805C104Z3VACTU" H 8100 4150 50  0001 C CNN "Parnumber"
+F 4 "https://www.mouser.de/ProductDetail/Taiyo-Yuden/GMK212BBJ475KD-T?qs=VWNNG7jHlrJu0gRQmF8TjA%3D%3D" H 8100 4150 50  0001 C CNN "Mouser_Link"
+F 5 "GMK212BBJ475KD-T" H 8100 4150 50  0001 C CNN "Parnumber"
 	1    8100 4150
 	1    0    0    -1  
 $EndComp
@@ -1889,8 +1889,8 @@ F 0 "C122" H 8392 4196 50  0000 L CNN
 F 1 "4.7u" H 8392 4105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8300 4150 50  0001 C CNN
 F 3 "~" H 8300 4150 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/KEMET/C0805C104Z3VACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2FdZzrd8bbt%252Bc%3D" H 8300 4150 50  0001 C CNN "Mouser_Link"
-F 5 "C0805C104Z3VACTU" H 8300 4150 50  0001 C CNN "Parnumber"
+F 4 "https://www.mouser.de/ProductDetail/Taiyo-Yuden/GMK212BBJ475KD-T?qs=VWNNG7jHlrJu0gRQmF8TjA%3D%3D" H 8300 4150 50  0001 C CNN "Mouser_Link"
+F 5 "GMK212BBJ475KD-T" H 8300 4150 50  0001 C CNN "Parnumber"
 	1    8300 4150
 	1    0    0    -1  
 $EndComp
@@ -1902,8 +1902,8 @@ F 0 "C123" H 8542 4196 50  0000 L CNN
 F 1 "4.7u" H 8542 4105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8450 4150 50  0001 C CNN
 F 3 "~" H 8450 4150 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/KEMET/C0805C104Z3VACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2FdZzrd8bbt%252Bc%3D" H 8450 4150 50  0001 C CNN "Mouser_Link"
-F 5 "C0805C104Z3VACTU" H 8450 4150 50  0001 C CNN "Parnumber"
+F 4 "https://www.mouser.de/ProductDetail/Taiyo-Yuden/GMK212BBJ475KD-T?qs=VWNNG7jHlrJu0gRQmF8TjA%3D%3D" H 8450 4150 50  0001 C CNN "Mouser_Link"
+F 5 "GMK212BBJ475KD-T" H 8450 4150 50  0001 C CNN "Parnumber"
 	1    8450 4150
 	1    0    0    -1  
 $EndComp
@@ -1975,8 +1975,8 @@ F 0 "C124" H 10492 2446 50  0000 L CNN
 F 1 "4.7u" H 10492 2355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10400 2400 50  0001 C CNN
 F 3 "~" H 10400 2400 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/Taiyo-Yuden/EMK107ABJ475KA-T?qs=sGAEpiMZZMsh%252B1woXyUXjzXZPAgA2%252BEM0YjaF6PuMqo%3D" H 10400 2400 50  0001 C CNN "Mouser_Link"
-F 5 "EMK107ABJ475KA-T" H 10400 2400 50  0001 C CNN "Parnumber"
+F 4 "https://www.mouser.de/ProductDetail/Murata-Electronics/GRM188R60J475KE19D?qs=8N7GLiuM2OS81roWI9UfgQ%3D%3D" H 10400 2400 50  0001 C CNN "Mouser_Link"
+F 5 "GRM188R60J475KE19D " H 10400 2400 50  0001 C CNN "Parnumber"
 	1    10400 2400
 	1    0    0    -1  
 $EndComp

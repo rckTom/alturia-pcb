@@ -1,0 +1,61 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Mouser_Link,Parnumber
+1,"Unpolarized capacitor, small symbol",C_Small,C1 C2 C106 C109 C110 C111 C112 C113 C114 C115 C116 C201 C202 C203 C204 C205,100n,C_0402_1005Metric,16,~,https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012205037?qs=sGAEpiMZZMs0AnBnWHyRQEGbLOF2VP1iQ21DRO%252BfKQRXXkG1Pup5LQ%3D%3D,885012205037
+2,"Unpolarized capacitor, small symbol",C_Small,C101 C102,14p,C_0402_1005Metric,2,~,https://www.mouser.de/ProductDetail/Murata-Electronics/GCM1555G1H220JA16D?qs=sGAEpiMZZMs0AnBnWHyRQAsAWwhBCY7bDLShlSp46t28ceXO6IsPuQ%3D%3D,GCM1555G1H220JA16D
+3,Polarized capacitor,CP,C3,1m,CP_Axial_L11.0mm_D8.0mm_P15.00mm_Horizontal,1,~,https://www.mouser.de/ProductDetail/Illinois-Capacitor-CDE/337TTA016M?qs=3tP%252BN51vMXcJjE4PHk19Og%3D%3D,337TTA016M
+4,"Unpolarized capacitor, small symbol",C_Small,C103,1u,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,~,https://www.mouser.de/ProductDetail/Yageo/CC0603KRX5R8BB105?qs=sGAEpiMZZMs0AnBnWHyRQIOKs%2FDjbJvGM2Qk4x9TyVw%3D,CC0603KRX5R8BB105
+5,"Unpolarized capacitor, small symbol",C_Small,C119,1u,C_0805_2012Metric,1,~,https://www.mouser.de/ProductDetail/Taiyo-Yuden/EMK107BJ225MA-T?qs=sGAEpiMZZMs0AnBnWHyRQPSjYu%2Fkbgu8gi8YbsqojVfHLlKjG2ASkw%3D%3D,EMK107BJ225MA-T
+6,"Unpolarized capacitor, small symbol",C_Small,C108,2.2u,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,~,https://www.mouser.de/ProductDetail/Taiyo-Yuden/EMK107ABJ475KA-T?qs=sGAEpiMZZMsh%252B1woXyUXjzXZPAgA2%252BEM0YjaF6PuMqo%3D,EMK107ABJ475KA-T
+7,"Unpolarized capacitor, small symbol",C_Small,C117 C118,2.2u,C_0402_1005Metric,2,~,https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012205037?qs=sGAEpiMZZMs0AnBnWHyRQEGbLOF2VP1iQ21DRO%252BfKQRXXkG1Pup5LQ%3D%3D,885012205037
+8,"Unpolarized capacitor, small symbol",C_Small,C104 C120 C121 C122 C123,4.7u,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,5,~,https://www.mouser.de/ProductDetail/KEMET/C0805C104Z3VACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2FdZzrd8bbt%252Bc%3D,C0805C104Z3VACTU
+9,"Unpolarized capacitor, small symbol",C_Small,C107,4.7u,C_0805_2012Metric,1,~,https://www.mouser.de/ProductDetail/Taiyo-Yuden/EMK107BJ225MA-T?qs=sGAEpiMZZMs0AnBnWHyRQPSjYu%2Fkbgu8gi8YbsqojVfHLlKjG2ASkw%3D%3D,EMK107BJ225MA-T
+10,"Unpolarized capacitor, small symbol",C_Small,C124,4.7u,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,~,https://www.mouser.de/ProductDetail/Taiyo-Yuden/EMK107ABJ475KA-T?qs=sGAEpiMZZMsh%252B1woXyUXjzXZPAgA2%252BEM0YjaF6PuMqo%3D,EMK107ABJ475KA-T
+11,"75V 0.15A Fast switching Diode, SOD-323",1N4148WS,D103,1N4148WS,D_SOD-323,1,https://www.vishay.com/docs/85751/1n4148ws.pdf,https://www.mouser.de/ProductDetail/ON-Semiconductor-Fairchild/1N4148WS?qs=sGAEpiMZZMtoHjESLttvkr4bXZrJfFziTdC5C0Y1oek%3D,1N4148WS
+12,"RGB LED, red/green/blue/anode",LED_RGBA,D101,LED_RGBA,SMD_RGB_LED,1,https://www.mouser.de/datasheet/2/445/150080M153000-1714255.pdf,https://www.mouser.de/ProductDetail/Wurth-Elektronik/150080M153000?qs=sGAEpiMZZMseGfSY3csMkdgyOOAg6kv2ATVeB2UaEgWtXXrdgl5jsw==,150080M153000
+13,"Resettable fuse, polymeric positive temperature coefficient",Polyfuse,F1 F301 F401 F501,Polyfuse,Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder,4,~,https://www.mouser.de/ProductDetail/Bel-Fuse/0ZCM0008FF2G?qs=sGAEpiMZZMsxR%252BBXi4wRUHZtKAyWcVPAeoO9zfZPDm1Bddpp1KgY1Q%3D%3D,0ZCM0008FF2G
+14,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04,J205,Conn_01x04,Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal,1,~,https://www.mouser.de/ProductDetail/Molex/53048-0410?qs=%2Fha2pyFaduhazv%252BrzlAyvQZXU%2FDmMavUdv7l26oboIbszvaUNyo%252Bpw2d6Y81NNYE,53048-0410
+15,"Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x10,J201,Conn_01x10,Molex_MicroClasp_55935-1010_1x10_P2.00mm_Horizontal,1,~,https://www.mouser.de/ProductDetail/Molex/55935-1010?qs=%2Fha2pyFaduj3M7T2a9STTQYVOGeLuTIxWP1L4Ymmci%252BgjL3enOzonYHkRZDnKq9I,55935-1010
+16,"Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x10_MountingPin,J206,Conn_01x10_MountingPin,Molex_PicoBlade_53398-1071_1x10-1MP_P1.25mm_Vertical,1,~,https://www.mouser.de/ProductDetail/Molex/53398-1071?qs=%2Fha2pyFaduhYrC0nzbiX9cKRUf%2FVssYiuUxFMhDDvKdlRqeC7ZSoLJfREeJWSxiv,53398-1071
+17,"Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x03_Odd_Even,J203,Conn_02x03_Counter_Clockwise,PinHeader_2x03_P2.54mm_Horizontal,1,~,https://www.mouser.de/ProductDetail/Harwin/M20-9740346?qs=sGAEpiMZZMs%252BGHln7q6pmzlZUuX%2F53qj2xUq9U8k%252BE4%3D,M20-9740346
+18,"Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface",Conn_ARM_JTAG_SWD_10,J202,Conn_ARM_JTAG_SWD_10,PinHeader_2x05_P2.00mm_Vertical_SMD,1,http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf,https://www.mouser.de/ProductDetail/Amphenol-FCI/57202-G51-05LF?qs=EpiMZZMs%252BGHln7q6pm24n0txessAMKkUfqCysfDA%3D,57202-G51-05LF
+19,USB Micro Type B connector,USB_B_Micro,J204,USB_B_Micro,USB_Micro-B_Molex-105017-0001,1,~,https://www.mouser.de/ProductDetail/Molex/105017-0001?qs=sGAEpiMZZMulM8LPOQ%252BykxkHE97o%2FWJn1YkS%2FQp33f4%3D,105017-0001
+20,Crystal speaker/transducer,Speaker_Crystal,LS101,Speaker_Crystal,CSS-95B30-SMT,1,https://www.mouser.de/datasheet/2/670/css-95b30-smt-1311901.pdf,https://www.mouser.de/ProductDetail/CUI/CSS-95B30-SMT-TR?qs=%2Fha2pyFadujUtUiS6nVN8UjFiyT71DSqrQ1WhaWeieDQerreQwEnLQ%3D%3D,CSS-95B30-SMT-TR
+21,"100mA IC, 45V Vce, Dual NPN/NPN Transistors, SOT-363",BC847BDW1,Q1 Q301 Q401 Q501,BC848CDW1T1G,SOT-363_SC-70-6,4,http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF,https://www.mouser.de/manufacturer/on-semiconductor/,BC848CDW1T1G
+22,"P-MOSFET transistor, gate/source/drain",Q_PMOS_GSD,Q101,DMG2301L,SOT-23,1,~,https://www.mouser.de/ProductDetail/Diodes-Incorporated/DMG2301L-7?qs=sGAEpiMZZMshyDBzk1%2FWi7D7EaJfF%252Bz4L6K6mPI5IG5tw42rmqyxiA%3D%3D,DMG2301L-7
+23,"N-MOSFET transistor, gate/source/drain",Q_NMOS_GSD,Q102,NTR4003NT1G,SOT-23,1,~,https://www.mouser.de/ProductDetail/ON-Semiconductor/NTR4003NT1G?qs=sGAEpiMZZMshyDBzk1%2FWi4hQ7dFcTtZiRq92fftwFXs%3D,NTR4003NT1G
+24,"P-MOSFET transistor, drain/gate/source",SI7149ADP,Q103,SISS05dn,Vishay_PowerPAK_1212-8_Single,1,https://www.mouser.de/datasheet/2/427/siss05dn-1595673.pdf,https://www.mouser.de/ProductDetail/Vishay-Siliconix/SISS05DN-T1-GE3?qs=%2Fha2pyFadugz6r8MF7HjV9XJLYucB9iA801wzI6YUU8%3D,SISS05DN-T1-GE3
+25,"Resistor, small symbol",R_Small,R201,1.5k,R_0402_1005Metric,1,~,https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW04021K50FKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3Gu1a8Ybkd9F8%3D,CRCW04021K50FKEDC
+26,"Resistor, small symbol",R_Small,R103 R104,100k,R_0402_1005Metric,2,~,https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW0402100KFKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GqPf2An0kBCw%3D,CRCW0402100KFKEDC
+27,Resistor,R,R202,120,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,~,https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf,ERJ-6RBD1200V
+28,Resistor,R,R10 R13 R102 R106 R108 R301 R303 R401 R403 R501 R503,2.7k,R_0402_1005Metric,11,~,https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW04022K70FKEDC?qs=sGAEpiMZZMu61qfTUdNhG9bvwnXh9sSrHB5zaMHoC9p2GBlct%252B1VIg%3D%3D,CRCW04022K70FKEDC
+29,Resistor,R,R2 R4 R6 R8 R11,220k,R_0402_1005Metric,5,~,https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW0402220KFKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3G5pQ69okwQNw%3D,CRCW0402220KFKEDC
+30,Resistor,R,R12 R302 R402 R502,33,R_0402_1005Metric,4,~,https://www.mouser.de/ProductDetail/TE-Connectivity-Neohm/CPF0402B33RE1?qs=sGAEpiMZZMu61qfTUdNhGxAfPTOoMd3M04DSieB%252B0Z0%3D,CPF0402B33RE1
+31,Resistor,R,R101 R105 R107 R109,680,R_0402_1005Metric,4,~,https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW0402680RFKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GyuaBeN1cc%2FA%3D,CRCW0402680RFKEDC
+32,Resistor,R,R1 R3 R5 R7 R9,68k,R_0402_1005Metric,5,~,https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW0402768K0FKEDC,CRCW040268K0FKEDC
+33,,AIS2120SXTR,U103,AIS2120SXTR,SOIC-8_3.9x4.9mm_P1.27mm,1,,https://www.mouser.de/ProductDetail/STMicroelectronics/AIS2120SXTR?qs=%2Fha2pyFadugZjNTqMEitk1TqmZGE9nJR7UIHc%2FlvT7bsDzSJaWYiUA%3D%3D,AIS2120SXTR
+34,,ATA6561,U202,ATA6561,DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/20005991B.pdf,https://www.mouser.de/ProductDetail/Microchip-Technology/ATA6561-GBQW-N?qs=sGAEpiMZZMve4%2FbfQkoj%252BI%2F7t6KV9V5GttbTFJRO2QE%3D,ATA6561-GBQW-N
+35,,BMI088,U106,BMI088,BMI088,1,,https://www.mouser.de/ProductDetail/Bosch-Sensortec/BMI088?qs=sGAEpiMZZMve4%2FbfQkoj%252BKNIMLZP%2FhAQsZAKYu1PzHs%3D,BMI088
+36,,LDL212,U105,LDL212,DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm,1,https://www.st.com/resource/en/datasheet/ldl212.pdf,https://www.mouser.de/ProductDetail/STMicroelectronics/LDL212PU50R?qs=sGAEpiMZZMsGz1a6aV8DcBSoZqFSANO3dLAhEqRmCNA%3D,LDL212PU50R
+37,"Single General-Purpose Low-Voltage Comparator, SOT-23-5/SC-70-5",LMV331,U1,LMV331,SOT-353_SC-70-5,1,http://www.ti.com/lit/ds/symlink/lmv331.pdf,https://www.mouser.de/datasheet/2/115/LMV331_393-335820.pdf,LMV331SE-7
+38,"Barometric pressure sensor, 10cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8",MS5611-01BA,U107,MS5611-01BA,LGA-8_3x5mm_P1.25mm,1,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5611-01BA03&DocType=Data+Sheet&DocLang=English,https://www.mouser.de/ProductDetail/Measurement-Specialties/MS560702BA03-50?qs=%2Fha2pyFaduj7bZYAXiWvnF9nCQuPCYCW%252BbRwaRxHKSrn25fabmNd%252BQ%3D%3D,MS560702BA03-50
+39,,MT25Q_W9,U102,MT25Q_W9,micron-wpdfn_8x6mm,1,https://www.micron.com/-/media/client/global/documents/products/data-sheet/nor-flash/serial-nor/mt25q/die-rev-b/mt25q_qlkt_l_512_abb_0.pdf?rev=9954479269714be9aaffbf716642c35f,https://www.mouser.de/ProductDetail/Micron/MT25QL512ABB1EW9-0SIT?qs=sGAEpiMZZMtI%252BQ06EiAoG%252BAe0qJpJIMLZ3oBAzI5jlY%3D,MT25QL512ABB1EW9-0SIT
+40,,SI7232DN,U301 U501,SI7232DN,Vishay_PowerPAK_1212-8_Dual,2,,https://www.mouser.de/ProductDetail/Vishay-Siliconix/SI7232DN-T1-GE3?qs=%2Fha2pyFaduiZCEC0X5XOlemXjOWX3oZDDwY4%252BOM6S%252B4%3D,SI7232DN-T1-GE3
+41,"ARM Cortex-M4 MCU, 1024KB flash, 128KB RAM, 168MHz, 1.8-3.6V, 51 GPIO, LQFP-64",STM32F405RGTx,U108,STM32F405RGTx,LQFP-64_10x10mm_P0.5mm,1,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf,https://www.mouser.de/ProductDetail/STMicroelectronics/STM32F405RGT7?qs=sGAEpiMZZMvh0aGzCjJ9ppxwOvp%252BLF2Y,STM32F405RGT7
+42,,TLV767,U101,TLV767,TI_WSON_TLV767,1,http://www.ti.com/lit/ds/symlink/tlv767.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&DCM=yes&ref_url=https%3A%2F%2Fwww.mouser.de%2F&distId=26,https://www.mouser.de/Texas-Instruments/Semiconductors/Power-Management-ICs/Voltage-Regulators-Voltage-Controllers/LDO-Voltage-Regulators/TLV767-Series/_/N-5cgac?P=1y8t43uZ1z0zls6Z1z0wa2e,TLV76733DRVR
+43,,USBLC6-2SC6-Power_Protection,U201,USBLC6-2P6,SOT-666,1,http://www2.st.com/resource/en/datasheet/CD00050750.pdf,https://www.mouser.de/ProductDetail/STMicroelectronics/USBLC6-2SC6?qs=sGAEpiMZZMvxHShE6Whpu%2FcIE2H5IOBdvREMGHqn6h0%3D,USBLC6-2SC6
+44,"Four pin crystal, GND on pins 2 and 4",Crystal_GND24,Y1,Crystal_GND24,Crystal_SMD_2016-4Pin_2.0x1.6mm,1,https://www.mouser.de/datasheet/2/122/ECX-1637B-1633271.pdf,https://www.mouser.de/ProductDetail/ECS/ECS-160-12-37B-CTN-TR?qs=%2Fha2pyFadujvhxBwFsOldwE2gAFaayUwHG1acvMOXAgHbMYRHo7ofA%3D%3D,ECS-160-12-37B-CTN-TR
+
+
+
+
+
+Component Groups:,44
+Component Count:,97
+Fitted Components:,97
+Number of PCBs:,1
+Total components:,97
+Schematic Version:,v 1.2 rev.A
+Schematic Date:,
+PCB Variant:,['default']
+BoM Date:,So 28 Jun 2020 17:07:57 CEST
+Schematic Source:,/home/thomas/Projects/altimeter/alturia-pcb/altimeter.sch
+KiCad Version:,Eeschema 5.1.6

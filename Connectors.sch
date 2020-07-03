@@ -738,8 +738,8 @@ F 0 "R202" H 7070 3196 50  0000 L CNN
 F 1 "120" H 7070 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6930 3150 50  0001 C CNN
 F 3 "~" H 7000 3150 50  0001 C CNN
-F 4 "https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf" H 7000 3150 50  0001 C CNN "Mouser_Link"
-F 5 "ERJ-6RBD1200V" H 7000 3150 50  0001 C CNN "Parnumber"
+F 4 "https://www.mouser.de/ProductDetail/Panasonic/ERA-3AEB121V?qs=nho8PGNfA6p7qyQ5b8td6g%3D%3D" H 7000 3150 50  0001 C CNN "Mouser_Link"
+F 5 "ERA-3AEB121V" H 7000 3150 50  0001 C CNN "Parnumber"
 	1    7000 3150
 	1    0    0    -1  
 $EndComp
