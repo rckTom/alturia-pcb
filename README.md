@@ -15,7 +15,7 @@ This repository contains all data to build the hardware of the Alturia rocket fl
 
 ## Getting Started
 
-The board is built with [Kicad](http://kicad-pcb.org/). Version 5.2 or newer is required. The firmware is located at [alturia-firmware](https://github.com/rckTom/alturia-firmware)
+The board is built with [Kicad](http://kicad.org/). Version 5.2 or newer is required. The firmware is located at [alturia-firmware](https://github.com/rckTom/alturia-firmware)
 
 ## Board Versions
 *   v1.0 rev.B *Initial Board Design*
